@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/castl/CLionProjects/oopL2/func.cpp
+head.h
+C:/Users/castl/CLionProjects/oopL2/head.h
+iostream
+-
+
+C:/Users/castl/CLionProjects/oopL2/head.h
+iostream
+-
+map
+-
+vector
+-
+

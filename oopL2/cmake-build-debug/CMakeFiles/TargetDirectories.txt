@@ -1,0 +1,3 @@
+C:/Users/castl/CLionProjects/oopL2/cmake-build-debug/CMakeFiles/oopL2.dir
+C:/Users/castl/CLionProjects/oopL2/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/castl/CLionProjects/oopL2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
