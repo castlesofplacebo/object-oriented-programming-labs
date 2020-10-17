@@ -14,7 +14,7 @@ int main() {
 
         AbstractProduct pr1("product_code1", "product_name1");
 
-
+        cout << "hello git!!!!";
 
 
         Shop shop1("code1", "name1", "address1");
