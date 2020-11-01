@@ -2,27 +2,19 @@
 #define OOPL2_ABSTRACTPRODUCT_H
 
 #include <string>
-#include "Product.h"
 
 using namespace std;
 
 class AbstractProduct {
 private:
-    string name;
     string code;
+    string name;
 public:
-    //virtual ~AbstractProduct() = 0;
+    AbstractProduct(string code, string name);
 
-    AbstractProduct(string name, string code);
+    string getCode();
 
-
-    string get_name() {
-        return name;
-    }
-
-    string get_code() {
-        return code;
-    }
+    string getName();
 
 };
 

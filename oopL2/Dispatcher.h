@@ -7,19 +7,19 @@
 
 class Dispatcher {
 private:
-    string &cityName;
+    string cityName;
 
     vector<Shop *> s;
 public:
-    explicit Dispatcher(string &);
+    explicit Dispatcher(string city);
 
-    string &getCityName();
+    string getCityName();
 
-    void addShop(Shop *);
+    void addShop(Shop* shop);
 
-    Shop theCheapestProduct(ProductFactory &);
+    Shop theCheapestProduct(AbstractProduct& shop);
 
-    Shop theCheapestList(vector <pair<size_t, ProductFactory>> &);
+    Shop theCheapestList(vector<pair<int, AbstractProduct>>& product);
 };
 
 #endif //OOPL2_DISPATCHER_H

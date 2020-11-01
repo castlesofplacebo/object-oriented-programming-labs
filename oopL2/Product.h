@@ -1,24 +1,23 @@
 #ifndef OOPL2_PRODUCT_H
 #define OOPL2_PRODUCT_H
 
-#include <cstddef>
-#include "ProductFactory.h"
+#include <iostream>
+#include "AbstractProduct.h"
 
-
-class Product : AbstractProduct {
+class Product : public AbstractProduct {
 private:
-    size_t count;
+    unsigned int count;
     double price;
 public:
-    size_t getCount();
+    Product (AbstractProduct& abstractProduct, unsigned int count, double price);
+
+    unsigned int getCount();
 
     double getPrice();
 
-    void setPrice(double);
+    void setPrice(double currentPrice);
 
-    void setCount(size_t);
-
-
+    void setCount(unsigned int count);
 };
 
 #endif //OOPL2_PRODUCT_H
