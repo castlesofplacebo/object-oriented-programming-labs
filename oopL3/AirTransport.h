@@ -14,6 +14,4 @@ public:
     double getTime(double distance) override;
 };
 
-
-
 #endif //OOPL3_AIRTRANSPORT_H

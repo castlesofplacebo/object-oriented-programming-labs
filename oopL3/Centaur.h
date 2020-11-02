@@ -5,7 +5,7 @@
 class Centaur : public LandTransport {
 public:
     Centaur();
+    void updateRest() override;
 };
-
 
 #endif //OOPL3_CENTAUR_H

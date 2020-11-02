@@ -5,6 +5,7 @@
 class BactrainCamel : public LandTransport {
 public:
     BactrainCamel();
+    void updateRest() override;
 };
 
 #endif //OOPL3_BACTRAINCAMEL_H

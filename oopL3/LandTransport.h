@@ -19,6 +19,7 @@ public:
     int getRestNumber();
 
     double getTime(double distance) override;
+    virtual void updateRest() = 0;
 };
 
 #endif //OOPL3_LANDTRANSPORT_H
