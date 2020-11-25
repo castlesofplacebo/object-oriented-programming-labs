@@ -80,10 +80,58 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/AlgoGeneral.cpp">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/AlgoGeneral.h">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/AlgoSeparated.cpp">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/AlgoSeparated.h">
+			<Option target="oopL4_1"/>
+		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/Backup.cpp">
 			<Option target="oopL4_1"/>
 		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/Backup.h">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/BackupJob.cpp">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/BackupJob.h">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/CleanupAlgorithms.cpp">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/CleanupAlgorithms.h">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/CleanupByDate.cpp">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/CleanupByDate.h">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/CleanupByQuantity.cpp">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/CleanupByQuantity.h">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/CleanupBySize.cpp">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/CleanupBySize.h">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/CleanupHybrid.cpp">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/CleanupHybrid.h">
 			<Option target="oopL4_1"/>
 		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/FileInfo.cpp">
@@ -108,6 +156,12 @@
 			<Option target="oopL4_1"/>
 		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/RestorePoint.h">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/StorageAlgorithms.cpp">
+			<Option target="oopL4_1"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/StorageAlgorithms.h">
 			<Option target="oopL4_1"/>
 		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL4.1/main.cpp">

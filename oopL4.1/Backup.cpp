@@ -28,10 +28,8 @@ int Backup::getBackupSize() {
 
 void Backup::addObjects(const std::string &file) {
     for (auto &currentFile : currentFiles) {
-        for (auto &j : currentFile) {
-            if (j.getFileName() == file)
-                throw std::invalid_argument("File already exists");
-        }
+        if (currentFile.getFileName() == file)
+            throw std::invalid_argument("File already exists");
     }
 
     struct stat buffer{};
@@ -40,8 +38,10 @@ void Backup::addObjects(const std::string &file) {
         std::ifstream fileOrDir(file);
         fileOrDir.seekg(0, std::ios::end);
 
-        if (fileOrDir.good())  //if it's a file
-            this->currentFiles.push_back({FileInfo(file)});
+        if (fileOrDir.good()) {//if it's a file
+            FileInfo tmp(file);
+            this->currentFiles.emplace_back(tmp);
+        }
 
         else { //if it's directory
             const char *path = file.c_str();
@@ -51,12 +51,11 @@ void Backup::addObjects(const std::string &file) {
                 return;
             }
 
-            std::vector<FileInfo> direct;
             while ((entry = readdir(dir)) != nullptr) {
                 std::string w(entry->d_name);
                 FileInfo tmp(w);
                 tmp.setDirName(file);
-                direct.emplace_back(tmp);
+                this->currentFiles.emplace_back(tmp);
             }
 
             //checking
@@ -64,55 +63,56 @@ void Backup::addObjects(const std::string &file) {
                 std::cout << item.getFileName() << " " << item.getFileSize() << std::endl;
             }*/
 
-            this->currentFiles.push_back({direct});
-
             closedir(dir);
         }
     } else
         throw std::invalid_argument("Invalid file or directory name");
 }
 
+std::string currentFileName{};
+
+bool IsMarkedToDelete(FileInfo &o) {
+    return o.getDirName() == currentFileName || o.getFileName() == currentFileName;
+}
+
 void Backup::deleteObjects(const std::string &file) {
-    bool isFind = false;
-    for (int i = 0; i < currentFiles.size(); ++i) {
-        for (int j = 0; j < currentFiles[i].size(); ++j) {
-            if (currentFiles[i][j].getDirName() == file) {
-                isFind = true;
-                this->currentFiles.erase(currentFiles.begin() + i);
-                break;
-            }
+    currentFileName = file;
 
-            if (currentFiles[i][j].getFileName() == file) {
-                isFind = true;
-                this->currentFiles[i].erase(currentFiles[i].begin() + j);
-            }
-        }
-    }
+    for (auto i : currentFiles)
+        if (i.getFileName() == file || i.getDirName() == file)
+            this->backupSize = this->backupSize - i.getFileSize();
 
-    if (!isFind)
-        throw std::invalid_argument("Can not delete file (does not exist)");
+    currentFiles.erase(
+            std::remove_if(currentFiles.begin(), currentFiles.end(), IsMarkedToDelete),
+            currentFiles.end());
 }
 
-void Backup::getCurrentFiles() {
-    //checking 2.0
-    for (const auto &i : currentFiles) {
-        for (auto j : i) {
-            std::cout << j.getDirName() << " " << j.getFileName() << " " << j.getFileSize() << std::endl;
-        }
+std::vector<FileInfo> Backup::getCurrentFiles() {
+    return this->currentFiles;
+}
+
+void Backup::addRestorePoint(RestorePoint point) {
+    this->backupRestorePoints.emplace_back(point);
+
+    for (auto i : point.getRestoreFiles())
+        this->backupSize += i.getFileSize();
+}
+
+void Backup::showRestorePoints() {
+    for (auto i : backupRestorePoints) {
+        for (auto j : i.getRestoreFiles())
+            std::cout << j.getDirName() << " " << j.getFileName() << std::endl;
+        std::cout << i.getCreationTime() << std::endl;
     }
 }
 
-void Backup::addRestorePoint(typePoint point) {
-    switch (point) {
-        case FULL: {
-            FullPoint();
-            break;
-        }
-        case INC: {
-            IncPoint();
-            break;
-        }
-        default:
-            break;
-    }
+std::vector<RestorePoint> Backup::getRestorePoints() {
+    return this->backupRestorePoints;
+}
+
+void Backup::deleteRestorePoint(unsigned int it) {
+    for (auto i : this->backupRestorePoints[it].getRestoreFiles())
+        this->backupSize = this->backupSize - i.getFileSize();
+
+    this->backupRestorePoints.erase(this->backupRestorePoints.begin() + it);
 }

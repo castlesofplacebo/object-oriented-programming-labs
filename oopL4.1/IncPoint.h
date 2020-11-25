@@ -11,6 +11,7 @@ class IncPoint : public RestorePoint {
 private:
 
 public:
+    explicit IncPoint(const std::vector<FileInfo> &currentFiles, std::vector<RestorePoint> prevRestorePoints);
 };
 
 #endif //OOPL4_1_INCPOINT_H

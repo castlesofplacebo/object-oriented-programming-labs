@@ -134,6 +134,123 @@ CMakeFiles/oopL4_1.dir/IncPoint.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL4_1.dir/IncPoint.cpp.s"
 	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL4.1\IncPoint.cpp -o CMakeFiles\oopL4_1.dir\IncPoint.cpp.s
 
+CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.obj: CMakeFiles/oopL4_1.dir/flags.make
+CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.obj: ../AlgoGeneral.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL4_1.dir\AlgoGeneral.cpp.obj -c C:\Users\castl\CLionProjects\oopL4.1\AlgoGeneral.cpp
+
+CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL4.1\AlgoGeneral.cpp > CMakeFiles\oopL4_1.dir\AlgoGeneral.cpp.i
+
+CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL4.1\AlgoGeneral.cpp -o CMakeFiles\oopL4_1.dir\AlgoGeneral.cpp.s
+
+CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.obj: CMakeFiles/oopL4_1.dir/flags.make
+CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.obj: ../AlgoSeparated.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL4_1.dir\AlgoSeparated.cpp.obj -c C:\Users\castl\CLionProjects\oopL4.1\AlgoSeparated.cpp
+
+CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL4.1\AlgoSeparated.cpp > CMakeFiles\oopL4_1.dir\AlgoSeparated.cpp.i
+
+CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL4.1\AlgoSeparated.cpp -o CMakeFiles\oopL4_1.dir\AlgoSeparated.cpp.s
+
+CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.obj: CMakeFiles/oopL4_1.dir/flags.make
+CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.obj: ../StorageAlgorithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL4_1.dir\StorageAlgorithms.cpp.obj -c C:\Users\castl\CLionProjects\oopL4.1\StorageAlgorithms.cpp
+
+CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL4.1\StorageAlgorithms.cpp > CMakeFiles\oopL4_1.dir\StorageAlgorithms.cpp.i
+
+CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL4.1\StorageAlgorithms.cpp -o CMakeFiles\oopL4_1.dir\StorageAlgorithms.cpp.s
+
+CMakeFiles/oopL4_1.dir/BackupJob.cpp.obj: CMakeFiles/oopL4_1.dir/flags.make
+CMakeFiles/oopL4_1.dir/BackupJob.cpp.obj: ../BackupJob.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oopL4_1.dir/BackupJob.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL4_1.dir\BackupJob.cpp.obj -c C:\Users\castl\CLionProjects\oopL4.1\BackupJob.cpp
+
+CMakeFiles/oopL4_1.dir/BackupJob.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL4_1.dir/BackupJob.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL4.1\BackupJob.cpp > CMakeFiles\oopL4_1.dir\BackupJob.cpp.i
+
+CMakeFiles/oopL4_1.dir/BackupJob.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL4_1.dir/BackupJob.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL4.1\BackupJob.cpp -o CMakeFiles\oopL4_1.dir\BackupJob.cpp.s
+
+CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.obj: CMakeFiles/oopL4_1.dir/flags.make
+CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.obj: ../CleanupAlgorithms.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL4_1.dir\CleanupAlgorithms.cpp.obj -c C:\Users\castl\CLionProjects\oopL4.1\CleanupAlgorithms.cpp
+
+CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL4.1\CleanupAlgorithms.cpp > CMakeFiles\oopL4_1.dir\CleanupAlgorithms.cpp.i
+
+CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL4.1\CleanupAlgorithms.cpp -o CMakeFiles\oopL4_1.dir\CleanupAlgorithms.cpp.s
+
+CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.obj: CMakeFiles/oopL4_1.dir/flags.make
+CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.obj: ../CleanupByQuantity.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL4_1.dir\CleanupByQuantity.cpp.obj -c C:\Users\castl\CLionProjects\oopL4.1\CleanupByQuantity.cpp
+
+CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL4.1\CleanupByQuantity.cpp > CMakeFiles\oopL4_1.dir\CleanupByQuantity.cpp.i
+
+CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL4.1\CleanupByQuantity.cpp -o CMakeFiles\oopL4_1.dir\CleanupByQuantity.cpp.s
+
+CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.obj: CMakeFiles/oopL4_1.dir/flags.make
+CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.obj: ../CleanupByDate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL4_1.dir\CleanupByDate.cpp.obj -c C:\Users\castl\CLionProjects\oopL4.1\CleanupByDate.cpp
+
+CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL4.1\CleanupByDate.cpp > CMakeFiles\oopL4_1.dir\CleanupByDate.cpp.i
+
+CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL4.1\CleanupByDate.cpp -o CMakeFiles\oopL4_1.dir\CleanupByDate.cpp.s
+
+CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.obj: CMakeFiles/oopL4_1.dir/flags.make
+CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.obj: ../CleanupBySize.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL4_1.dir\CleanupBySize.cpp.obj -c C:\Users\castl\CLionProjects\oopL4.1\CleanupBySize.cpp
+
+CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL4.1\CleanupBySize.cpp > CMakeFiles\oopL4_1.dir\CleanupBySize.cpp.i
+
+CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL4.1\CleanupBySize.cpp -o CMakeFiles\oopL4_1.dir\CleanupBySize.cpp.s
+
+CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.obj: CMakeFiles/oopL4_1.dir/flags.make
+CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.obj: ../CleanupHybrid.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL4_1.dir\CleanupHybrid.cpp.obj -c C:\Users\castl\CLionProjects\oopL4.1\CleanupHybrid.cpp
+
+CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.i"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL4.1\CleanupHybrid.cpp > CMakeFiles\oopL4_1.dir\CleanupHybrid.cpp.i
+
+CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.s"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL4.1\CleanupHybrid.cpp -o CMakeFiles\oopL4_1.dir\CleanupHybrid.cpp.s
+
 # Object files for target oopL4_1
 oopL4_1_OBJECTS = \
 "CMakeFiles/oopL4_1.dir/main.cpp.obj" \
@@ -141,7 +258,16 @@ oopL4_1_OBJECTS = \
 "CMakeFiles/oopL4_1.dir/FileInfo.cpp.obj" \
 "CMakeFiles/oopL4_1.dir/RestorePoint.cpp.obj" \
 "CMakeFiles/oopL4_1.dir/FullPoint.cpp.obj" \
-"CMakeFiles/oopL4_1.dir/IncPoint.cpp.obj"
+"CMakeFiles/oopL4_1.dir/IncPoint.cpp.obj" \
+"CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.obj" \
+"CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.obj" \
+"CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.obj" \
+"CMakeFiles/oopL4_1.dir/BackupJob.cpp.obj" \
+"CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.obj" \
+"CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.obj" \
+"CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.obj" \
+"CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.obj" \
+"CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.obj"
 
 # External object files for target oopL4_1
 oopL4_1_EXTERNAL_OBJECTS =
@@ -152,11 +278,20 @@ oopL4_1.exe: CMakeFiles/oopL4_1.dir/FileInfo.cpp.obj
 oopL4_1.exe: CMakeFiles/oopL4_1.dir/RestorePoint.cpp.obj
 oopL4_1.exe: CMakeFiles/oopL4_1.dir/FullPoint.cpp.obj
 oopL4_1.exe: CMakeFiles/oopL4_1.dir/IncPoint.cpp.obj
+oopL4_1.exe: CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.obj
+oopL4_1.exe: CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.obj
+oopL4_1.exe: CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.obj
+oopL4_1.exe: CMakeFiles/oopL4_1.dir/BackupJob.cpp.obj
+oopL4_1.exe: CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.obj
+oopL4_1.exe: CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.obj
+oopL4_1.exe: CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.obj
+oopL4_1.exe: CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.obj
+oopL4_1.exe: CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.obj
 oopL4_1.exe: CMakeFiles/oopL4_1.dir/build.make
 oopL4_1.exe: CMakeFiles/oopL4_1.dir/linklibs.rsp
 oopL4_1.exe: CMakeFiles/oopL4_1.dir/objects1.rsp
 oopL4_1.exe: CMakeFiles/oopL4_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable oopL4_1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\castl\CLionProjects\oopL4.1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable oopL4_1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\oopL4_1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

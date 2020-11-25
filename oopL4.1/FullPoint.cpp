@@ -3,3 +3,7 @@
 //
 
 #include "FullPoint.h"
+#include <iostream>
+#include <utility>
+
+FullPoint::FullPoint(std::vector<FileInfo> currentFiles) : RestorePoint(std::move(currentFiles)) {}

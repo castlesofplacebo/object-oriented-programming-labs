@@ -122,6 +122,60 @@ oopL4_1/fast:
 	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/build
 .PHONY : oopL4_1/fast
 
+AlgoGeneral.obj: AlgoGeneral.cpp.obj
+
+.PHONY : AlgoGeneral.obj
+
+# target to build an object file
+AlgoGeneral.cpp.obj:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.obj
+.PHONY : AlgoGeneral.cpp.obj
+
+AlgoGeneral.i: AlgoGeneral.cpp.i
+
+.PHONY : AlgoGeneral.i
+
+# target to preprocess a source file
+AlgoGeneral.cpp.i:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.i
+.PHONY : AlgoGeneral.cpp.i
+
+AlgoGeneral.s: AlgoGeneral.cpp.s
+
+.PHONY : AlgoGeneral.s
+
+# target to generate assembly for a file
+AlgoGeneral.cpp.s:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/AlgoGeneral.cpp.s
+.PHONY : AlgoGeneral.cpp.s
+
+AlgoSeparated.obj: AlgoSeparated.cpp.obj
+
+.PHONY : AlgoSeparated.obj
+
+# target to build an object file
+AlgoSeparated.cpp.obj:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.obj
+.PHONY : AlgoSeparated.cpp.obj
+
+AlgoSeparated.i: AlgoSeparated.cpp.i
+
+.PHONY : AlgoSeparated.i
+
+# target to preprocess a source file
+AlgoSeparated.cpp.i:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.i
+.PHONY : AlgoSeparated.cpp.i
+
+AlgoSeparated.s: AlgoSeparated.cpp.s
+
+.PHONY : AlgoSeparated.s
+
+# target to generate assembly for a file
+AlgoSeparated.cpp.s:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/AlgoSeparated.cpp.s
+.PHONY : AlgoSeparated.cpp.s
+
 Backup.obj: Backup.cpp.obj
 
 .PHONY : Backup.obj
@@ -148,6 +202,168 @@ Backup.s: Backup.cpp.s
 Backup.cpp.s:
 	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/Backup.cpp.s
 .PHONY : Backup.cpp.s
+
+BackupJob.obj: BackupJob.cpp.obj
+
+.PHONY : BackupJob.obj
+
+# target to build an object file
+BackupJob.cpp.obj:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/BackupJob.cpp.obj
+.PHONY : BackupJob.cpp.obj
+
+BackupJob.i: BackupJob.cpp.i
+
+.PHONY : BackupJob.i
+
+# target to preprocess a source file
+BackupJob.cpp.i:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/BackupJob.cpp.i
+.PHONY : BackupJob.cpp.i
+
+BackupJob.s: BackupJob.cpp.s
+
+.PHONY : BackupJob.s
+
+# target to generate assembly for a file
+BackupJob.cpp.s:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/BackupJob.cpp.s
+.PHONY : BackupJob.cpp.s
+
+CleanupAlgorithms.obj: CleanupAlgorithms.cpp.obj
+
+.PHONY : CleanupAlgorithms.obj
+
+# target to build an object file
+CleanupAlgorithms.cpp.obj:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.obj
+.PHONY : CleanupAlgorithms.cpp.obj
+
+CleanupAlgorithms.i: CleanupAlgorithms.cpp.i
+
+.PHONY : CleanupAlgorithms.i
+
+# target to preprocess a source file
+CleanupAlgorithms.cpp.i:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.i
+.PHONY : CleanupAlgorithms.cpp.i
+
+CleanupAlgorithms.s: CleanupAlgorithms.cpp.s
+
+.PHONY : CleanupAlgorithms.s
+
+# target to generate assembly for a file
+CleanupAlgorithms.cpp.s:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupAlgorithms.cpp.s
+.PHONY : CleanupAlgorithms.cpp.s
+
+CleanupByDate.obj: CleanupByDate.cpp.obj
+
+.PHONY : CleanupByDate.obj
+
+# target to build an object file
+CleanupByDate.cpp.obj:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.obj
+.PHONY : CleanupByDate.cpp.obj
+
+CleanupByDate.i: CleanupByDate.cpp.i
+
+.PHONY : CleanupByDate.i
+
+# target to preprocess a source file
+CleanupByDate.cpp.i:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.i
+.PHONY : CleanupByDate.cpp.i
+
+CleanupByDate.s: CleanupByDate.cpp.s
+
+.PHONY : CleanupByDate.s
+
+# target to generate assembly for a file
+CleanupByDate.cpp.s:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupByDate.cpp.s
+.PHONY : CleanupByDate.cpp.s
+
+CleanupByQuantity.obj: CleanupByQuantity.cpp.obj
+
+.PHONY : CleanupByQuantity.obj
+
+# target to build an object file
+CleanupByQuantity.cpp.obj:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.obj
+.PHONY : CleanupByQuantity.cpp.obj
+
+CleanupByQuantity.i: CleanupByQuantity.cpp.i
+
+.PHONY : CleanupByQuantity.i
+
+# target to preprocess a source file
+CleanupByQuantity.cpp.i:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.i
+.PHONY : CleanupByQuantity.cpp.i
+
+CleanupByQuantity.s: CleanupByQuantity.cpp.s
+
+.PHONY : CleanupByQuantity.s
+
+# target to generate assembly for a file
+CleanupByQuantity.cpp.s:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupByQuantity.cpp.s
+.PHONY : CleanupByQuantity.cpp.s
+
+CleanupBySize.obj: CleanupBySize.cpp.obj
+
+.PHONY : CleanupBySize.obj
+
+# target to build an object file
+CleanupBySize.cpp.obj:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.obj
+.PHONY : CleanupBySize.cpp.obj
+
+CleanupBySize.i: CleanupBySize.cpp.i
+
+.PHONY : CleanupBySize.i
+
+# target to preprocess a source file
+CleanupBySize.cpp.i:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.i
+.PHONY : CleanupBySize.cpp.i
+
+CleanupBySize.s: CleanupBySize.cpp.s
+
+.PHONY : CleanupBySize.s
+
+# target to generate assembly for a file
+CleanupBySize.cpp.s:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupBySize.cpp.s
+.PHONY : CleanupBySize.cpp.s
+
+CleanupHybrid.obj: CleanupHybrid.cpp.obj
+
+.PHONY : CleanupHybrid.obj
+
+# target to build an object file
+CleanupHybrid.cpp.obj:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.obj
+.PHONY : CleanupHybrid.cpp.obj
+
+CleanupHybrid.i: CleanupHybrid.cpp.i
+
+.PHONY : CleanupHybrid.i
+
+# target to preprocess a source file
+CleanupHybrid.cpp.i:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.i
+.PHONY : CleanupHybrid.cpp.i
+
+CleanupHybrid.s: CleanupHybrid.cpp.s
+
+.PHONY : CleanupHybrid.s
+
+# target to generate assembly for a file
+CleanupHybrid.cpp.s:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/CleanupHybrid.cpp.s
+.PHONY : CleanupHybrid.cpp.s
 
 FileInfo.obj: FileInfo.cpp.obj
 
@@ -257,6 +473,33 @@ RestorePoint.cpp.s:
 	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/RestorePoint.cpp.s
 .PHONY : RestorePoint.cpp.s
 
+StorageAlgorithms.obj: StorageAlgorithms.cpp.obj
+
+.PHONY : StorageAlgorithms.obj
+
+# target to build an object file
+StorageAlgorithms.cpp.obj:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.obj
+.PHONY : StorageAlgorithms.cpp.obj
+
+StorageAlgorithms.i: StorageAlgorithms.cpp.i
+
+.PHONY : StorageAlgorithms.i
+
+# target to preprocess a source file
+StorageAlgorithms.cpp.i:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.i
+.PHONY : StorageAlgorithms.cpp.i
+
+StorageAlgorithms.s: StorageAlgorithms.cpp.s
+
+.PHONY : StorageAlgorithms.s
+
+# target to generate assembly for a file
+StorageAlgorithms.cpp.s:
+	$(MAKE) -f CMakeFiles\oopL4_1.dir\build.make CMakeFiles/oopL4_1.dir/StorageAlgorithms.cpp.s
+.PHONY : StorageAlgorithms.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -293,9 +536,33 @@ help:
 	@echo ... oopL4_1
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... AlgoGeneral.obj
+	@echo ... AlgoGeneral.i
+	@echo ... AlgoGeneral.s
+	@echo ... AlgoSeparated.obj
+	@echo ... AlgoSeparated.i
+	@echo ... AlgoSeparated.s
 	@echo ... Backup.obj
 	@echo ... Backup.i
 	@echo ... Backup.s
+	@echo ... BackupJob.obj
+	@echo ... BackupJob.i
+	@echo ... BackupJob.s
+	@echo ... CleanupAlgorithms.obj
+	@echo ... CleanupAlgorithms.i
+	@echo ... CleanupAlgorithms.s
+	@echo ... CleanupByDate.obj
+	@echo ... CleanupByDate.i
+	@echo ... CleanupByDate.s
+	@echo ... CleanupByQuantity.obj
+	@echo ... CleanupByQuantity.i
+	@echo ... CleanupByQuantity.s
+	@echo ... CleanupBySize.obj
+	@echo ... CleanupBySize.i
+	@echo ... CleanupBySize.s
+	@echo ... CleanupHybrid.obj
+	@echo ... CleanupHybrid.i
+	@echo ... CleanupHybrid.s
 	@echo ... FileInfo.obj
 	@echo ... FileInfo.i
 	@echo ... FileInfo.s
@@ -308,6 +575,9 @@ help:
 	@echo ... RestorePoint.obj
 	@echo ... RestorePoint.i
 	@echo ... RestorePoint.s
+	@echo ... StorageAlgorithms.obj
+	@echo ... StorageAlgorithms.i
+	@echo ... StorageAlgorithms.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

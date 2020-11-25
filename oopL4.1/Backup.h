@@ -11,20 +11,15 @@
 #include <map>
 #include "FileInfo.h"
 #include "RestorePoint.h"
-
-enum typePoint {
-    FULL = 0,
-    INC = 1
-};
+#include "StorageAlgorithms.h"
 
 class Backup {
 private:
     long long int backupID;
     time_t creationTime;
     int backupSize = 0;
+    std::vector<FileInfo> currentFiles;
     std::vector<RestorePoint> backupRestorePoints;
-    std::vector<std::vector<FileInfo>> currentFiles;
-
 public:
     Backup();
 
@@ -38,9 +33,16 @@ public:
 
     int getBackupSize();
 
-    void getCurrentFiles();
+    std::vector<FileInfo> getCurrentFiles();
 
-    void addRestorePoint(typePoint point);
+    void addRestorePoint(RestorePoint point);
+
+    std::vector<RestorePoint> getRestorePoints();
+
+    void deleteRestorePoint(unsigned int it);
+
+    //to check
+    void showRestorePoints();
 
 };
 

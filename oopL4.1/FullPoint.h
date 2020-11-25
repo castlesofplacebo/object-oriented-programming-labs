@@ -11,7 +11,7 @@ class FullPoint : public RestorePoint {
 private:
 
 public:
-
+    explicit FullPoint(std::vector<FileInfo> currentFiles);
 };
 
 #endif //OOPL4_1_FULLPOINT_H

@@ -2,18 +2,23 @@
 #include <fstream>
 #include <utility>
 #include <vector>
+#include <ctime>
+#include <random>
 
 FileInfo::FileInfo(std::string currentFile) {
+    //проблема тут
     std::ifstream tempFile(currentFile, std::ios::binary);
     tempFile.seekg(0, std::ios::end);
     int size = tempFile.tellg();
+
     if (size < 0) {//это все еще некрутое избавление от минус единицы
         if (currentFile == "." || currentFile == "..")
             this->fileSize = 0;
         else
             this->fileSize = rand();
     }
-    else this->fileSize = tempFile.tellg();
+
+    else this->fileSize = size;
     this->fileName = std::move(currentFile);
 }
 
