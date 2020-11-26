@@ -12,16 +12,16 @@
 class RestorePoint {
 private:
     //unsigned int id = 0;
+    std::string pointType {};
     time_t creationTime = 0;
     std::vector<FileInfo> restoreFiles {};
 public:
     RestorePoint();
     explicit RestorePoint(std::vector<FileInfo> currentFiles);
     void addRestoreFile(const FileInfo& currentFile);
-    //void incId();
-    //unsigned int getId();
+    void setPointType(std::string type);
+    std::string getPointType();
 
-    //to check
     time_t getCreationTime();
     std::vector<FileInfo> getRestoreFiles();
 };

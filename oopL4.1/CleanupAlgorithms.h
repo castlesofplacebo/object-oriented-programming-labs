@@ -8,7 +8,6 @@
 #include "Backup.h"
 
 class CleanupAlgorithms {
-private:
 public:
     CleanupAlgorithms();
 

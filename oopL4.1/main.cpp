@@ -27,9 +27,8 @@ int main() {
 
         b.addRestorePoint(bj.createFullPoint());
         //sleep(5);
-        b.addRestorePoint(bj.createFullPoint());
+        b.addRestorePoint(bj.createIncPoint());
         CleanupByQuantity q(1);
-        //bj.applyCleanupAlgorithm(&q);
 
         //CleanupByDate c(26, 11, 2020);
         //bj.applyCleanupAlgorithm(&c);
@@ -38,8 +37,8 @@ int main() {
 
         //bj.applyCleanupAlgorithm(&bySize);
 
-        CleanupHybrid ch(&q, &bySize, "max");
-        bj.applyCleanupAlgorithm(&ch);
+        //CleanupHybrid ch(&q, &bySize, "max");
+        std::cout<<bj.applyCleanupAlgorithm(&q)<<std::endl;
 
         std::cout << bj.getInfo() << std::endl;
 

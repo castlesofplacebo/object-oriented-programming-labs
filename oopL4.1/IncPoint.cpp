@@ -5,6 +5,8 @@
 #include "IncPoint.h"
 
 IncPoint::IncPoint(const std::vector<FileInfo> &currentFiles, std::vector<RestorePoint> prevRestorePoints) : RestorePoint() {
+    this->setPointType("inc");
+
     if (prevRestorePoints.empty())
         for (const auto &k : currentFiles)
             this->addRestoreFile(k);

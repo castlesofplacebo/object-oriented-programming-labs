@@ -19,7 +19,7 @@ private:
 public:
     BackupJob(Backup* backup1, StorageAlgorithms* algorithm1);
 
-    void applyCleanupAlgorithm(CleanupAlgorithms* cleanupAlgorithm1);
+    std::string applyCleanupAlgorithm(CleanupAlgorithms* cleanupAlgorithm1);
 
     FullPoint createFullPoint();
     IncPoint createIncPoint();

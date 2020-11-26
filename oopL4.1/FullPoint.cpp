@@ -6,4 +6,6 @@
 #include <iostream>
 #include <utility>
 
-FullPoint::FullPoint(std::vector<FileInfo> currentFiles) : RestorePoint(std::move(currentFiles)) {}
+FullPoint::FullPoint(std::vector<FileInfo> currentFiles) : RestorePoint(std::move(currentFiles)) {
+    this->setPointType("full");
+}

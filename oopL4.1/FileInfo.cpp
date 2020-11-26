@@ -1,9 +1,6 @@
 #include "FileInfo.h"
 #include <fstream>
 #include <utility>
-#include <vector>
-#include <ctime>
-#include <random>
 
 FileInfo::FileInfo(std::string currentFile) {
     //проблема тут

@@ -6,28 +6,6 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/castl/CLionProjects/oopL4.1/AlgoGeneral.h
-StorageAlgorithms.h
-C:/Users/castl/CLionProjects/oopL4.1/StorageAlgorithms.h
-FileInfo.h
-C:/Users/castl/CLionProjects/oopL4.1/FileInfo.h
-IncPoint.h
-C:/Users/castl/CLionProjects/oopL4.1/IncPoint.h
-vector
--
-iostream
--
-
-C:/Users/castl/CLionProjects/oopL4.1/AlgoSeparated.h
-StorageAlgorithms.h
-C:/Users/castl/CLionProjects/oopL4.1/StorageAlgorithms.h
-FileInfo.h
-C:/Users/castl/CLionProjects/oopL4.1/FileInfo.h
-iostream
--
-vector
--
-
 C:/Users/castl/CLionProjects/oopL4.1/Backup.h
 iostream
 -
@@ -44,6 +22,10 @@ C:/Users/castl/CLionProjects/oopL4.1/RestorePoint.h
 StorageAlgorithms.h
 C:/Users/castl/CLionProjects/oopL4.1/StorageAlgorithms.h
 
+C:/Users/castl/CLionProjects/oopL4.1/BackupJob.cpp
+BackupJob.h
+C:/Users/castl/CLionProjects/oopL4.1/BackupJob.h
+
 C:/Users/castl/CLionProjects/oopL4.1/BackupJob.h
 iostream
 -
@@ -57,24 +39,6 @@ C:/Users/castl/CLionProjects/oopL4.1/CleanupAlgorithms.h
 C:/Users/castl/CLionProjects/oopL4.1/CleanupAlgorithms.h
 Backup.h
 C:/Users/castl/CLionProjects/oopL4.1/Backup.h
-
-C:/Users/castl/CLionProjects/oopL4.1/CleanupByDate.h
-CleanupAlgorithms.h
-C:/Users/castl/CLionProjects/oopL4.1/CleanupAlgorithms.h
-
-C:/Users/castl/CLionProjects/oopL4.1/CleanupByQuantity.h
-CleanupAlgorithms.h
-C:/Users/castl/CLionProjects/oopL4.1/CleanupAlgorithms.h
-
-C:/Users/castl/CLionProjects/oopL4.1/CleanupBySize.h
-CleanupAlgorithms.h
-C:/Users/castl/CLionProjects/oopL4.1/CleanupAlgorithms.h
-
-C:/Users/castl/CLionProjects/oopL4.1/CleanupHybrid.h
-CleanupAlgorithms.h
-C:/Users/castl/CLionProjects/oopL4.1/CleanupAlgorithms.h
-iostream
--
 
 C:/Users/castl/CLionProjects/oopL4.1/FileInfo.h
 iostream
@@ -109,28 +73,4 @@ vector
 -
 iostream
 -
-
-C:/Users/castl/CLionProjects/oopL4.1/main.cpp
-iostream
--
-vector
--
-string
--
-Backup.h
-C:/Users/castl/CLionProjects/oopL4.1/Backup.h
-BackupJob.h
-C:/Users/castl/CLionProjects/oopL4.1/BackupJob.h
-AlgoSeparated.h
-C:/Users/castl/CLionProjects/oopL4.1/AlgoSeparated.h
-AlgoGeneral.h
-C:/Users/castl/CLionProjects/oopL4.1/AlgoGeneral.h
-CleanupByQuantity.h
-C:/Users/castl/CLionProjects/oopL4.1/CleanupByQuantity.h
-CleanupHybrid.h
-C:/Users/castl/CLionProjects/oopL4.1/CleanupHybrid.h
-CleanupByDate.h
-C:/Users/castl/CLionProjects/oopL4.1/CleanupByDate.h
-CleanupBySize.h
-C:/Users/castl/CLionProjects/oopL4.1/CleanupBySize.h
 

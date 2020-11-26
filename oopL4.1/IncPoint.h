@@ -8,8 +8,6 @@
 #include "RestorePoint.h"
 
 class IncPoint : public RestorePoint {
-private:
-
 public:
     explicit IncPoint(const std::vector<FileInfo> &currentFiles, std::vector<RestorePoint> prevRestorePoints);
 };

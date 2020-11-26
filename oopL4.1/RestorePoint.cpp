@@ -26,10 +26,10 @@ void RestorePoint::addRestoreFile(const FileInfo& currentFile) {
     this->restoreFiles.emplace_back(currentFile);
 }
 
-/*void RestorePoint::incId() {
-    this->id = this->id + 1;
+void RestorePoint::setPointType(std::string type) {
+    this->pointType = std::move(type);
 }
 
-unsigned int RestorePoint::getId() {
-    return this->id;
-}*/
+std::string RestorePoint::getPointType() {
+    return this->pointType;
+}

@@ -13,8 +13,6 @@
 #include <iostream>
 
 class StorageAlgorithms {
-private:
-    std::string info{};
 public:
     StorageAlgorithms();
 

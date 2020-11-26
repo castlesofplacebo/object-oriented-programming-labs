@@ -8,8 +8,6 @@
 #include "RestorePoint.h"
 
 class FullPoint : public RestorePoint {
-private:
-
 public:
     explicit FullPoint(std::vector<FileInfo> currentFiles);
 };

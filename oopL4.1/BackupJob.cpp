@@ -30,14 +30,21 @@ std::string BackupJob::getInfo() {
     return this->info;
 }
 
-void BackupJob::applyCleanupAlgorithm(CleanupAlgorithms *cleanupAlgorithm1) {
+std::string BackupJob::applyCleanupAlgorithm(CleanupAlgorithms *cleanupAlgorithm1) {
     std::vector<unsigned int> numbersToDelete(cleanupAlgorithm1->deleteRestorePoint(backup));
+    std::string warning = "--";
 
     if (!numbersToDelete.empty())
         for (auto i : numbersToDelete) {
+            if (i != backup->getRestorePoints().size() && backup->getRestorePoints()[i + 1].getPointType() == "inc") {
+                warning += "This point does not delete " + std::to_string(i + 1);
+                continue;
+            }
             backup->deleteRestorePoint(i);
             this->addInfo("Deleted point: restore-point-" + std::to_string(i + 1) + '\n');
         }
+    warning += "--";
+    return warning;
 }
 
 void BackupJob::incId() {
