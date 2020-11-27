@@ -8,6 +8,8 @@
 #include <algorithm>
 #include "FullPoint.h"
 #include "IncPoint.h"
+#include <sys/stat.h>
+#include <filesystem>
 
 Backup::Backup() : creationTime(time(nullptr)),
                    backupID(time(nullptr)) {}
@@ -38,33 +40,39 @@ void Backup::addObjects(const std::string &file) {
         std::ifstream fileOrDir(file);
         fileOrDir.seekg(0, std::ios::end);
 
-        if (fileOrDir.good()) {//if it's a file
+
+        if (buffer.st_mode & (unsigned int) S_IFREG) {
             FileInfo tmp(file);
             this->currentFiles.emplace_back(tmp);
-        }
+        } else if (buffer.st_mode & (unsigned int) S_IFDIR) {
+            std::filesystem::path p(file);
+            /* struct dirent *entry;
+             DIR *dir = opendir(path);
+             if (dir == nullptr) {
+                 return;
+             }
 
-        else { //if it's directory
-            const char *path = file.c_str();
-            struct dirent *entry;
-            DIR *dir = opendir(path);
-            if (dir == nullptr) {
-                return;
-            }
-
-            while ((entry = readdir(dir)) != nullptr) {
-                std::string w(entry->d_name);
-                FileInfo tmp(w);
+             while ((entry = readdir(dir)) != nullptr) {
+                 std::string w(entry->d_name);
+                 FileInfo tmp(w);
+                 tmp.setDirName(file);
+                 this->currentFiles.emplace_back(tmp);
+             } */
+            for (const auto & entry : std::filesystem::directory_iterator(p)){
+                FileInfo tmp(entry.path().string()); // Возможно стоит отсечь полный путь к файлу, а мб и нет)
                 tmp.setDirName(file);
                 this->currentFiles.emplace_back(tmp);
             }
 
-            //checking
-            /*for (auto &item : direct) { //очень круто но размер файла все равно минус один
-                std::cout << item.getFileName() << " " << item.getFileSize() << std::endl;
-            }*/
+                //checking
+                /*for (auto &item : direct) { //очень круто но размер файла все равно минус один
+                    std::cout << item.getFileName() << " " << item.getFileSize() << std::endl;
+                }*/
 
-            closedir(dir);
+              //  closedir(dir);
         }
+
+
     } else
         throw std::invalid_argument("Invalid file or directory name");
 }
