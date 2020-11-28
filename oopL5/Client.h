@@ -4,16 +4,18 @@
 
 #ifndef OOPL5_CLIENT_H
 #define OOPL5_CLIENT_H
-#include "AbstractClient.h"
+
 #include <iostream>
 
-class Client : public AbstractClient {
-private:
-    std::string name;
-    std::string surname;
+class Client {
 public:
-    Client(std::string _name, std::string _surname);
-    explicit Client(Client *client);
+    std::string surname{};
+    std::string name{};
+    std::string address{};
+    std::string passport{};
+    bool isVerified = false;
+
+    void verification();
 };
 
 #endif //OOPL5_CLIENT_H

@@ -13,14 +13,14 @@
 class Bank {
 private:
     std::string bankName{};
-    std::map<AbstractClient *, BankAccount *> members{};
+    int verificationLimit = 0;
+    std::map<BankAccount *, int> members{};
 public:
-    explicit Bank(std::string _bankName);
+    explicit Bank(std::string _bankName, int _verificationLimit);
 
-    void addMember(AbstractClient *client, BankAccount *bankAccount);
+    void addMember(BankAccount *bankAccount);
 
-    BankAccount* getAccount(AbstractClient *client);
-
+    BankAccount *getAccount(Client* client);
 };
 
 #endif //OOPL5_BANK_H

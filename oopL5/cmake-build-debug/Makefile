@@ -142,33 +142,6 @@ oopL5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/build
 .PHONY : oopL5/fast
 
-AbstractClient.obj: AbstractClient.cpp.obj
-
-.PHONY : AbstractClient.obj
-
-# target to build an object file
-AbstractClient.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/AbstractClient.cpp.obj
-.PHONY : AbstractClient.cpp.obj
-
-AbstractClient.i: AbstractClient.cpp.i
-
-.PHONY : AbstractClient.i
-
-# target to preprocess a source file
-AbstractClient.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/AbstractClient.cpp.i
-.PHONY : AbstractClient.cpp.i
-
-AbstractClient.s: AbstractClient.cpp.s
-
-.PHONY : AbstractClient.s
-
-# target to generate assembly for a file
-AbstractClient.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/AbstractClient.cpp.s
-.PHONY : AbstractClient.cpp.s
-
 Bank.obj: Bank.cpp.obj
 
 .PHONY : Bank.obj
@@ -223,6 +196,33 @@ BankAccount.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/BankAccount.cpp.s
 .PHONY : BankAccount.cpp.s
 
+Builder.obj: Builder.cpp.obj
+
+.PHONY : Builder.obj
+
+# target to build an object file
+Builder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/Builder.cpp.obj
+.PHONY : Builder.cpp.obj
+
+Builder.i: Builder.cpp.i
+
+.PHONY : Builder.i
+
+# target to preprocess a source file
+Builder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/Builder.cpp.i
+.PHONY : Builder.cpp.i
+
+Builder.s: Builder.cpp.s
+
+.PHONY : Builder.s
+
+# target to generate assembly for a file
+Builder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/Builder.cpp.s
+.PHONY : Builder.cpp.s
+
 Client.obj: Client.cpp.obj
 
 .PHONY : Client.obj
@@ -250,86 +250,32 @@ Client.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/Client.cpp.s
 .PHONY : Client.cpp.s
 
-ClientAddress.obj: ClientAddress.cpp.obj
+ClientBuilder.obj: ClientBuilder.cpp.obj
 
-.PHONY : ClientAddress.obj
-
-# target to build an object file
-ClientAddress.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientAddress.cpp.obj
-.PHONY : ClientAddress.cpp.obj
-
-ClientAddress.i: ClientAddress.cpp.i
-
-.PHONY : ClientAddress.i
-
-# target to preprocess a source file
-ClientAddress.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientAddress.cpp.i
-.PHONY : ClientAddress.cpp.i
-
-ClientAddress.s: ClientAddress.cpp.s
-
-.PHONY : ClientAddress.s
-
-# target to generate assembly for a file
-ClientAddress.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientAddress.cpp.s
-.PHONY : ClientAddress.cpp.s
-
-ClientDecorator.obj: ClientDecorator.cpp.obj
-
-.PHONY : ClientDecorator.obj
+.PHONY : ClientBuilder.obj
 
 # target to build an object file
-ClientDecorator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientDecorator.cpp.obj
-.PHONY : ClientDecorator.cpp.obj
+ClientBuilder.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj
+.PHONY : ClientBuilder.cpp.obj
 
-ClientDecorator.i: ClientDecorator.cpp.i
+ClientBuilder.i: ClientBuilder.cpp.i
 
-.PHONY : ClientDecorator.i
-
-# target to preprocess a source file
-ClientDecorator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientDecorator.cpp.i
-.PHONY : ClientDecorator.cpp.i
-
-ClientDecorator.s: ClientDecorator.cpp.s
-
-.PHONY : ClientDecorator.s
-
-# target to generate assembly for a file
-ClientDecorator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientDecorator.cpp.s
-.PHONY : ClientDecorator.cpp.s
-
-ClientPassport.obj: ClientPassport.cpp.obj
-
-.PHONY : ClientPassport.obj
-
-# target to build an object file
-ClientPassport.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientPassport.cpp.obj
-.PHONY : ClientPassport.cpp.obj
-
-ClientPassport.i: ClientPassport.cpp.i
-
-.PHONY : ClientPassport.i
+.PHONY : ClientBuilder.i
 
 # target to preprocess a source file
-ClientPassport.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientPassport.cpp.i
-.PHONY : ClientPassport.cpp.i
+ClientBuilder.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientBuilder.cpp.i
+.PHONY : ClientBuilder.cpp.i
 
-ClientPassport.s: ClientPassport.cpp.s
+ClientBuilder.s: ClientBuilder.cpp.s
 
-.PHONY : ClientPassport.s
+.PHONY : ClientBuilder.s
 
 # target to generate assembly for a file
-ClientPassport.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientPassport.cpp.s
-.PHONY : ClientPassport.cpp.s
+ClientBuilder.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/ClientBuilder.cpp.s
+.PHONY : ClientBuilder.cpp.s
 
 CreditBankAccount.obj: CreditBankAccount.cpp.obj
 
@@ -448,27 +394,21 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... oopL5
-	@echo ... AbstractClient.obj
-	@echo ... AbstractClient.i
-	@echo ... AbstractClient.s
 	@echo ... Bank.obj
 	@echo ... Bank.i
 	@echo ... Bank.s
 	@echo ... BankAccount.obj
 	@echo ... BankAccount.i
 	@echo ... BankAccount.s
+	@echo ... Builder.obj
+	@echo ... Builder.i
+	@echo ... Builder.s
 	@echo ... Client.obj
 	@echo ... Client.i
 	@echo ... Client.s
-	@echo ... ClientAddress.obj
-	@echo ... ClientAddress.i
-	@echo ... ClientAddress.s
-	@echo ... ClientDecorator.obj
-	@echo ... ClientDecorator.i
-	@echo ... ClientDecorator.s
-	@echo ... ClientPassport.obj
-	@echo ... ClientPassport.i
-	@echo ... ClientPassport.s
+	@echo ... ClientBuilder.obj
+	@echo ... ClientBuilder.i
+	@echo ... ClientBuilder.s
 	@echo ... CreditBankAccount.obj
 	@echo ... CreditBankAccount.i
 	@echo ... CreditBankAccount.s

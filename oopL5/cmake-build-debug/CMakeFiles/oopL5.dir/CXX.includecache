@@ -6,8 +6,10 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/castl/CLionProjects/oopL5/AbstractClient.h
-iostream
+C:/Users/castl/CLionProjects/oopL5/Bank.cpp
+Bank.h
+C:/Users/castl/CLionProjects/oopL5/Bank.h
+utility
 -
 
 C:/Users/castl/CLionProjects/oopL5/Bank.h
@@ -20,53 +22,65 @@ C:/Users/castl/CLionProjects/oopL5/BankAccount.h
 Client.h
 C:/Users/castl/CLionProjects/oopL5/Client.h
 
+C:/Users/castl/CLionProjects/oopL5/BankAccount.cpp
+BankAccount.h
+C:/Users/castl/CLionProjects/oopL5/BankAccount.h
+
 C:/Users/castl/CLionProjects/oopL5/BankAccount.h
 Client.h
 C:/Users/castl/CLionProjects/oopL5/Client.h
 
+C:/Users/castl/CLionProjects/oopL5/Builder.h
+iostream
+-
+
 C:/Users/castl/CLionProjects/oopL5/Client.h
-AbstractClient.h
-C:/Users/castl/CLionProjects/oopL5/AbstractClient.h
 iostream
 -
 
-C:/Users/castl/CLionProjects/oopL5/ClientAddress.h
-iostream
--
-ClientDecorator.h
-C:/Users/castl/CLionProjects/oopL5/ClientDecorator.h
-
-C:/Users/castl/CLionProjects/oopL5/ClientDecorator.h
+C:/Users/castl/CLionProjects/oopL5/ClientBuilder.h
+Builder.h
+C:/Users/castl/CLionProjects/oopL5/Builder.h
 Client.h
 C:/Users/castl/CLionProjects/oopL5/Client.h
 
-C:/Users/castl/CLionProjects/oopL5/ClientPassport.cpp
-ClientPassport.h
-C:/Users/castl/CLionProjects/oopL5/ClientPassport.h
-utility
+C:/Users/castl/CLionProjects/oopL5/CreditBankAccount.cpp
+CreditBankAccount.h
+C:/Users/castl/CLionProjects/oopL5/CreditBankAccount.h
+iostream
 -
-
-C:/Users/castl/CLionProjects/oopL5/ClientPassport.h
-ClientDecorator.h
-C:/Users/castl/CLionProjects/oopL5/ClientDecorator.h
 
 C:/Users/castl/CLionProjects/oopL5/CreditBankAccount.h
 BankAccount.h
 C:/Users/castl/CLionProjects/oopL5/BankAccount.h
 
+C:/Users/castl/CLionProjects/oopL5/DebitBankAccount.cpp
+DebitBankAccount.h
+C:/Users/castl/CLionProjects/oopL5/DebitBankAccount.h
+iostream
+-
+
 C:/Users/castl/CLionProjects/oopL5/DebitBankAccount.h
 BankAccount.h
 C:/Users/castl/CLionProjects/oopL5/BankAccount.h
 
+C:/Users/castl/CLionProjects/oopL5/DepositBankAccount.cpp
+DepositBankAccount.h
+C:/Users/castl/CLionProjects/oopL5/DepositBankAccount.h
+utility
+-
+
+C:/Users/castl/CLionProjects/oopL5/DepositBankAccount.h
+BankAccount.h
+C:/Users/castl/CLionProjects/oopL5/BankAccount.h
+vector
+-
+
 C:/Users/castl/CLionProjects/oopL5/main.cpp
 iostream
 -
-ClientDecorator.h
-C:/Users/castl/CLionProjects/oopL5/ClientDecorator.h
-ClientAddress.h
-C:/Users/castl/CLionProjects/oopL5/ClientAddress.h
-ClientPassport.h
-C:/Users/castl/CLionProjects/oopL5/ClientPassport.h
+ClientBuilder.h
+C:/Users/castl/CLionProjects/oopL5/ClientBuilder.h
 Bank.h
 C:/Users/castl/CLionProjects/oopL5/Bank.h
 Client.h
@@ -75,6 +89,6 @@ CreditBankAccount.h
 C:/Users/castl/CLionProjects/oopL5/CreditBankAccount.h
 DebitBankAccount.h
 C:/Users/castl/CLionProjects/oopL5/DebitBankAccount.h
-AbstractClient.h
-C:/Users/castl/CLionProjects/oopL5/AbstractClient.h
+DepositBankAccount.h
+C:/Users/castl/CLionProjects/oopL5/DepositBankAccount.h
 

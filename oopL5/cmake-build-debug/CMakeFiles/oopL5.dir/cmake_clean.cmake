@@ -1,11 +1,9 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/oopL5.dir/AbstractClient.cpp.obj"
   "CMakeFiles/oopL5.dir/Bank.cpp.obj"
   "CMakeFiles/oopL5.dir/BankAccount.cpp.obj"
+  "CMakeFiles/oopL5.dir/Builder.cpp.obj"
   "CMakeFiles/oopL5.dir/Client.cpp.obj"
-  "CMakeFiles/oopL5.dir/ClientAddress.cpp.obj"
-  "CMakeFiles/oopL5.dir/ClientDecorator.cpp.obj"
-  "CMakeFiles/oopL5.dir/ClientPassport.cpp.obj"
+  "CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj"
   "CMakeFiles/oopL5.dir/CreditBankAccount.cpp.obj"
   "CMakeFiles/oopL5.dir/DebitBankAccount.cpp.obj"
   "CMakeFiles/oopL5.dir/DepositBankAccount.cpp.obj"

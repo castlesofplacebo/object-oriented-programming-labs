@@ -6,19 +6,30 @@
 
 int id = 1;
 
-BankAccount::BankAccount() {
+BankAccount::BankAccount(Client *client1) {
     this->accountID = id;
     ++id;
+    this->client = client1;
 }
 
-void BankAccount::cashAccount(int _amount) {
+void BankAccount::cashAccount(double _amount) {}
 
+void BankAccount::refillAccount(double _amount) {}
+
+void BankAccount::transferAccount(double _amount, BankAccount *bankAccount) {}
+
+int BankAccount::getAccountID() const {
+    return this->accountID;
 }
 
-void BankAccount::refillAccount() {
-
+Client *BankAccount::getClient() {
+    return this->client;
 }
 
-void BankAccount::transferAccount() {
-
+void BankAccount::setVerificationLimit(double limit) {
+    this->verificationLimit = limit;
 }
+
+void BankAccount::interestPayment() {}
+
+BankAccount::~BankAccount() = default;

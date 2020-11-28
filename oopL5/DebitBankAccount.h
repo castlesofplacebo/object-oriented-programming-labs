@@ -4,16 +4,23 @@
 
 #ifndef OOPL5_DEBITBANKACCOUNT_H
 #define OOPL5_DEBITBANKACCOUNT_H
+
 #include "BankAccount.h"
 
 class DebitBankAccount : public BankAccount {
+private:
+    double percent = 0;
+    double sumToPay = 0;
 public:
-    explicit DebitBankAccount();
-    ~DebitBankAccount();
+    explicit DebitBankAccount(Client *client1, int _percent);
 
-    void cashAccount(int _amount) override;
-    void refillAccount() override;
-    void transferAccount() override;
+    void cashAccount(double _amount) override;
+
+    void refillAccount(double _amount) override;
+
+    void transferAccount(double _amount, BankAccount *bankAccount) override;
+
+    void interestPayment() override;
 };
 
 #endif //OOPL5_DEBITBANKACCOUNT_H

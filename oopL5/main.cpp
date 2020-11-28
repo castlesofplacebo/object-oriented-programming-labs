@@ -1,30 +1,37 @@
 #include <iostream>
-#include "ClientDecorator.h"
-#include "ClientAddress.h"
-#include "ClientPassport.h"
+#include "ClientBuilder.h"
 #include "Bank.h"
 #include "Client.h"
 #include "CreditBankAccount.h"
 #include "DebitBankAccount.h"
-#include "AbstractClient.h"
+#include "DepositBankAccount.h"
 
 int main() {
     try {
-        AbstractClient *client = new Client("Ivan", "Ivanov");
-        
-        AbstractClient *decorator1 = new ClientAddress("Saint-P", client);
+        auto *clientBuilder = new ClientBuilder("Ivanov", "Ivan");
+        clientBuilder->setAddress("Sovetskaya st.");
+        clientBuilder->setPassport("11 22 33 44");
+        Client *client = clientBuilder->getResult();
 
-        AbstractClient *decorator2 = new ClientPassport("11 22 33", decorator1);
+        auto *clientBuilder1 = new ClientBuilder("Ivanova", "Anna");
+        clientBuilder->setAddress("Sovetskaya st.");
+        clientBuilder->setPassport("11 22 33 45");
+        Client *client1 = clientBuilder->getResult();
 
-        Bank *bank = new Bank("VTB");
-        bank->addMember(decorator2, new DebitBankAccount());
-        //bank->addMember(client, new CreditBankAccount());
+        Bank *bank = new Bank("VTB", 10000);
 
-        //bank->getAccount(client)->cashAccount(1000);
+        /*std::vector<std::pair<double, double>> percentAndAmount;
+        percentAndAmount.emplace_back(std::make_pair(50000, 3));
+        percentAndAmount.emplace_back(std::make_pair(100000, 3.5));
+        percentAndAmount.emplace_back(std::make_pair(INT64_MAX, 4));
+        BankAccount *account = new DepositBankAccount(60, 51000, percentAndAmount, client1);*/
 
+        BankAccount *account = new CreditBankAccount(200000,3, client1);
 
+        delete clientBuilder;
         delete client;
         delete bank;
+        delete account;
     }
     catch (std::exception &err) {
         std::cout << err.what() << std::endl;

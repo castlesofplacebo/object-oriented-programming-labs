@@ -6,26 +6,30 @@
 #define OOPL5_BANKACCOUNT_H
 #include "Client.h"
 
-enum AccountsType {
-    Debit,
-    Credit,
-    Deposit
-};
-
 class BankAccount {
 protected:
     int accountID = 0;
-    int amount = 0;
-    bool isVerified = false;
-    AccountsType accountType{};
+    double amount = 0;
+    double verificationLimit = 0;
+    Client *client{};
 public:
-    BankAccount();
+    explicit BankAccount(Client *client1);
 
-    virtual void cashAccount(int _amount);
+    virtual ~BankAccount();
 
-    virtual void refillAccount();
+    void setVerificationLimit(double limit);
 
-    virtual void transferAccount();
+    virtual void interestPayment() = 0;
+
+    virtual void cashAccount(double _amount) = 0;
+
+    virtual void refillAccount(double _amount) = 0;
+
+    virtual void transferAccount(double _amount, BankAccount *bankAccount) = 0;
+
+    [[nodiscard]] int getAccountID() const;
+
+    Client *getClient();
 };
 
 #endif //OOPL5_BANKACCOUNT_H

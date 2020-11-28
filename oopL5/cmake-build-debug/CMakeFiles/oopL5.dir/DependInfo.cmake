@@ -4,13 +4,11 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/castl/CLionProjects/oopL5/AbstractClient.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/AbstractClient.cpp.obj"
   "C:/Users/castl/CLionProjects/oopL5/Bank.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/Bank.cpp.obj"
   "C:/Users/castl/CLionProjects/oopL5/BankAccount.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/BankAccount.cpp.obj"
+  "C:/Users/castl/CLionProjects/oopL5/Builder.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/Builder.cpp.obj"
   "C:/Users/castl/CLionProjects/oopL5/Client.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/Client.cpp.obj"
-  "C:/Users/castl/CLionProjects/oopL5/ClientAddress.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/ClientAddress.cpp.obj"
-  "C:/Users/castl/CLionProjects/oopL5/ClientDecorator.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/ClientDecorator.cpp.obj"
-  "C:/Users/castl/CLionProjects/oopL5/ClientPassport.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/ClientPassport.cpp.obj"
+  "C:/Users/castl/CLionProjects/oopL5/ClientBuilder.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj"
   "C:/Users/castl/CLionProjects/oopL5/CreditBankAccount.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/CreditBankAccount.cpp.obj"
   "C:/Users/castl/CLionProjects/oopL5/DebitBankAccount.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/DebitBankAccount.cpp.obj"
   "C:/Users/castl/CLionProjects/oopL5/DepositBankAccount.cpp" "C:/Users/castl/CLionProjects/oopL5/cmake-build-debug/CMakeFiles/oopL5.dir/DepositBankAccount.cpp.obj"

@@ -3,23 +3,24 @@
 //
 
 #include "Bank.h"
-
 #include <utility>
 
-Bank::Bank(std::string _bankName) {
+Bank::Bank(std::string _bankName, int _verificationLimit) {
     this->bankName = std::move(_bankName);
+    this->verificationLimit = _verificationLimit;
 }
 
-void Bank::addMember(AbstractClient *client, BankAccount *bankAccount) {
-    if (this->members.find(client) != this->members.end())
-        throw std::invalid_argument("Account already exists");
-    this->members[client] = bankAccount;
-
+void Bank::addMember(BankAccount *bankAccount) {
+    bankAccount->setVerificationLimit(this->verificationLimit);
+    for (auto i : this->members)
+        if (i.first->getClient() == bankAccount->getClient())
+            throw std::invalid_argument("Account of this client already exists");
+    this->members[bankAccount] = bankAccount->getAccountID();
 }
 
-BankAccount *Bank::getAccount(AbstractClient *client) {
-    if (this->members.find(client) == this->members.end())
-        throw std::invalid_argument("Account does not exist");
-    else
-        return this->members.find(client)->second;
+BankAccount *Bank::getAccount(Client *client) {
+    for (auto i : this->members)
+        if (i.first->getClient() == client)
+            return i.first;
+    return nullptr;
 }

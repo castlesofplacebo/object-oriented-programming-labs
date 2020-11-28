@@ -89,22 +89,9 @@ CMakeFiles/oopL5.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/main.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\main.cpp -o CMakeFiles\oopL5.dir\main.cpp.s
 
-CMakeFiles/oopL5.dir/ClientDecorator.cpp.obj: CMakeFiles/oopL5.dir/flags.make
-CMakeFiles/oopL5.dir/ClientDecorator.cpp.obj: ../ClientDecorator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oopL5.dir/ClientDecorator.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\ClientDecorator.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\ClientDecorator.cpp
-
-CMakeFiles/oopL5.dir/ClientDecorator.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL5.dir/ClientDecorator.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL5\ClientDecorator.cpp > CMakeFiles\oopL5.dir\ClientDecorator.cpp.i
-
-CMakeFiles/oopL5.dir/ClientDecorator.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/ClientDecorator.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\ClientDecorator.cpp -o CMakeFiles\oopL5.dir\ClientDecorator.cpp.s
-
 CMakeFiles/oopL5.dir/Client.cpp.obj: CMakeFiles/oopL5.dir/flags.make
 CMakeFiles/oopL5.dir/Client.cpp.obj: ../Client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oopL5.dir/Client.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/oopL5.dir/Client.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\Client.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\Client.cpp
 
 CMakeFiles/oopL5.dir/Client.cpp.i: cmake_force
@@ -117,7 +104,7 @@ CMakeFiles/oopL5.dir/Client.cpp.s: cmake_force
 
 CMakeFiles/oopL5.dir/Bank.cpp.obj: CMakeFiles/oopL5.dir/flags.make
 CMakeFiles/oopL5.dir/Bank.cpp.obj: ../Bank.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oopL5.dir/Bank.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/oopL5.dir/Bank.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\Bank.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\Bank.cpp
 
 CMakeFiles/oopL5.dir/Bank.cpp.i: cmake_force
@@ -130,7 +117,7 @@ CMakeFiles/oopL5.dir/Bank.cpp.s: cmake_force
 
 CMakeFiles/oopL5.dir/BankAccount.cpp.obj: CMakeFiles/oopL5.dir/flags.make
 CMakeFiles/oopL5.dir/BankAccount.cpp.obj: ../BankAccount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oopL5.dir/BankAccount.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/oopL5.dir/BankAccount.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\BankAccount.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\BankAccount.cpp
 
 CMakeFiles/oopL5.dir/BankAccount.cpp.i: cmake_force
@@ -143,7 +130,7 @@ CMakeFiles/oopL5.dir/BankAccount.cpp.s: cmake_force
 
 CMakeFiles/oopL5.dir/DebitBankAccount.cpp.obj: CMakeFiles/oopL5.dir/flags.make
 CMakeFiles/oopL5.dir/DebitBankAccount.cpp.obj: ../DebitBankAccount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oopL5.dir/DebitBankAccount.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/oopL5.dir/DebitBankAccount.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\DebitBankAccount.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\DebitBankAccount.cpp
 
 CMakeFiles/oopL5.dir/DebitBankAccount.cpp.i: cmake_force
@@ -156,7 +143,7 @@ CMakeFiles/oopL5.dir/DebitBankAccount.cpp.s: cmake_force
 
 CMakeFiles/oopL5.dir/CreditBankAccount.cpp.obj: CMakeFiles/oopL5.dir/flags.make
 CMakeFiles/oopL5.dir/CreditBankAccount.cpp.obj: ../CreditBankAccount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oopL5.dir/CreditBankAccount.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/oopL5.dir/CreditBankAccount.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\CreditBankAccount.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\CreditBankAccount.cpp
 
 CMakeFiles/oopL5.dir/CreditBankAccount.cpp.i: cmake_force
@@ -169,7 +156,7 @@ CMakeFiles/oopL5.dir/CreditBankAccount.cpp.s: cmake_force
 
 CMakeFiles/oopL5.dir/DepositBankAccount.cpp.obj: CMakeFiles/oopL5.dir/flags.make
 CMakeFiles/oopL5.dir/DepositBankAccount.cpp.obj: ../DepositBankAccount.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oopL5.dir/DepositBankAccount.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/oopL5.dir/DepositBankAccount.cpp.obj"
 	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\DepositBankAccount.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\DepositBankAccount.cpp
 
 CMakeFiles/oopL5.dir/DepositBankAccount.cpp.i: cmake_force
@@ -180,78 +167,61 @@ CMakeFiles/oopL5.dir/DepositBankAccount.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/DepositBankAccount.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\DepositBankAccount.cpp -o CMakeFiles\oopL5.dir\DepositBankAccount.cpp.s
 
-CMakeFiles/oopL5.dir/AbstractClient.cpp.obj: CMakeFiles/oopL5.dir/flags.make
-CMakeFiles/oopL5.dir/AbstractClient.cpp.obj: ../AbstractClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oopL5.dir/AbstractClient.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\AbstractClient.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\AbstractClient.cpp
+CMakeFiles/oopL5.dir/Builder.cpp.obj: CMakeFiles/oopL5.dir/flags.make
+CMakeFiles/oopL5.dir/Builder.cpp.obj: ../Builder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/oopL5.dir/Builder.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\Builder.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\Builder.cpp
 
-CMakeFiles/oopL5.dir/AbstractClient.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL5.dir/AbstractClient.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL5\AbstractClient.cpp > CMakeFiles\oopL5.dir\AbstractClient.cpp.i
+CMakeFiles/oopL5.dir/Builder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL5.dir/Builder.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL5\Builder.cpp > CMakeFiles\oopL5.dir\Builder.cpp.i
 
-CMakeFiles/oopL5.dir/AbstractClient.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/AbstractClient.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\AbstractClient.cpp -o CMakeFiles\oopL5.dir\AbstractClient.cpp.s
+CMakeFiles/oopL5.dir/Builder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/Builder.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\Builder.cpp -o CMakeFiles\oopL5.dir\Builder.cpp.s
 
-CMakeFiles/oopL5.dir/ClientAddress.cpp.obj: CMakeFiles/oopL5.dir/flags.make
-CMakeFiles/oopL5.dir/ClientAddress.cpp.obj: ../ClientAddress.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oopL5.dir/ClientAddress.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\ClientAddress.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\ClientAddress.cpp
+CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj: CMakeFiles/oopL5.dir/flags.make
+CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj: ../ClientBuilder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\ClientBuilder.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\ClientBuilder.cpp
 
-CMakeFiles/oopL5.dir/ClientAddress.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL5.dir/ClientAddress.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL5\ClientAddress.cpp > CMakeFiles\oopL5.dir\ClientAddress.cpp.i
+CMakeFiles/oopL5.dir/ClientBuilder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL5.dir/ClientBuilder.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL5\ClientBuilder.cpp > CMakeFiles\oopL5.dir\ClientBuilder.cpp.i
 
-CMakeFiles/oopL5.dir/ClientAddress.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/ClientAddress.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\ClientAddress.cpp -o CMakeFiles\oopL5.dir\ClientAddress.cpp.s
-
-CMakeFiles/oopL5.dir/ClientPassport.cpp.obj: CMakeFiles/oopL5.dir/flags.make
-CMakeFiles/oopL5.dir/ClientPassport.cpp.obj: ../ClientPassport.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/oopL5.dir/ClientPassport.cpp.obj"
-	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\ClientPassport.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\ClientPassport.cpp
-
-CMakeFiles/oopL5.dir/ClientPassport.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL5.dir/ClientPassport.cpp.i"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL5\ClientPassport.cpp > CMakeFiles\oopL5.dir\ClientPassport.cpp.i
-
-CMakeFiles/oopL5.dir/ClientPassport.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/ClientPassport.cpp.s"
-	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\ClientPassport.cpp -o CMakeFiles\oopL5.dir\ClientPassport.cpp.s
+CMakeFiles/oopL5.dir/ClientBuilder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/ClientBuilder.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\ClientBuilder.cpp -o CMakeFiles\oopL5.dir\ClientBuilder.cpp.s
 
 # Object files for target oopL5
 oopL5_OBJECTS = \
 "CMakeFiles/oopL5.dir/main.cpp.obj" \
-"CMakeFiles/oopL5.dir/ClientDecorator.cpp.obj" \
 "CMakeFiles/oopL5.dir/Client.cpp.obj" \
 "CMakeFiles/oopL5.dir/Bank.cpp.obj" \
 "CMakeFiles/oopL5.dir/BankAccount.cpp.obj" \
 "CMakeFiles/oopL5.dir/DebitBankAccount.cpp.obj" \
 "CMakeFiles/oopL5.dir/CreditBankAccount.cpp.obj" \
 "CMakeFiles/oopL5.dir/DepositBankAccount.cpp.obj" \
-"CMakeFiles/oopL5.dir/AbstractClient.cpp.obj" \
-"CMakeFiles/oopL5.dir/ClientAddress.cpp.obj" \
-"CMakeFiles/oopL5.dir/ClientPassport.cpp.obj"
+"CMakeFiles/oopL5.dir/Builder.cpp.obj" \
+"CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj"
 
 # External object files for target oopL5
 oopL5_EXTERNAL_OBJECTS =
 
 oopL5.exe: CMakeFiles/oopL5.dir/main.cpp.obj
-oopL5.exe: CMakeFiles/oopL5.dir/ClientDecorator.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/Client.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/Bank.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/BankAccount.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/DebitBankAccount.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/CreditBankAccount.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/DepositBankAccount.cpp.obj
-oopL5.exe: CMakeFiles/oopL5.dir/AbstractClient.cpp.obj
-oopL5.exe: CMakeFiles/oopL5.dir/ClientAddress.cpp.obj
-oopL5.exe: CMakeFiles/oopL5.dir/ClientPassport.cpp.obj
+oopL5.exe: CMakeFiles/oopL5.dir/Builder.cpp.obj
+oopL5.exe: CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/build.make
 oopL5.exe: CMakeFiles/oopL5.dir/linklibs.rsp
 oopL5.exe: CMakeFiles/oopL5.dir/objects1.rsp
 oopL5.exe: CMakeFiles/oopL5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable oopL5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable oopL5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\oopL5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

@@ -80,12 +80,6 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/castl/CLionProjects/oopL5/AbstractClient.cpp">
-			<Option target="oopL5"/>
-		</Unit>
-		<Unit filename="C:/Users/castl/CLionProjects/oopL5/AbstractClient.h">
-			<Option target="oopL5"/>
-		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL5/Bank.cpp">
 			<Option target="oopL5"/>
 		</Unit>
@@ -98,28 +92,22 @@
 		<Unit filename="C:/Users/castl/CLionProjects/oopL5/BankAccount.h">
 			<Option target="oopL5"/>
 		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/Builder.cpp">
+			<Option target="oopL5"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/Builder.h">
+			<Option target="oopL5"/>
+		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL5/Client.cpp">
 			<Option target="oopL5"/>
 		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL5/Client.h">
 			<Option target="oopL5"/>
 		</Unit>
-		<Unit filename="C:/Users/castl/CLionProjects/oopL5/ClientAddress.cpp">
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/ClientBuilder.cpp">
 			<Option target="oopL5"/>
 		</Unit>
-		<Unit filename="C:/Users/castl/CLionProjects/oopL5/ClientAddress.h">
-			<Option target="oopL5"/>
-		</Unit>
-		<Unit filename="C:/Users/castl/CLionProjects/oopL5/ClientDecorator.cpp">
-			<Option target="oopL5"/>
-		</Unit>
-		<Unit filename="C:/Users/castl/CLionProjects/oopL5/ClientDecorator.h">
-			<Option target="oopL5"/>
-		</Unit>
-		<Unit filename="C:/Users/castl/CLionProjects/oopL5/ClientPassport.cpp">
-			<Option target="oopL5"/>
-		</Unit>
-		<Unit filename="C:/Users/castl/CLionProjects/oopL5/ClientPassport.h">
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/ClientBuilder.h">
 			<Option target="oopL5"/>
 		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL5/CreditBankAccount.cpp">
