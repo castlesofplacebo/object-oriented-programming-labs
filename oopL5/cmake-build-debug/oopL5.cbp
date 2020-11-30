@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/AbstractCommand.cpp">
+			<Option target="oopL5"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/AbstractCommand.h">
+			<Option target="oopL5"/>
+		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL5/Bank.cpp">
 			<Option target="oopL5"/>
 		</Unit>
@@ -96,6 +102,12 @@
 			<Option target="oopL5"/>
 		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL5/Builder.h">
+			<Option target="oopL5"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/CashCommand.cpp">
+			<Option target="oopL5"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/CashCommand.h">
 			<Option target="oopL5"/>
 		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL5/Client.cpp">
@@ -126,6 +138,18 @@
 			<Option target="oopL5"/>
 		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL5/DepositBankAccount.h">
+			<Option target="oopL5"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/RefillCommand.cpp">
+			<Option target="oopL5"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/RefillCommand.h">
+			<Option target="oopL5"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/TransferCommand.cpp">
+			<Option target="oopL5"/>
+		</Unit>
+		<Unit filename="C:/Users/castl/CLionProjects/oopL5/TransferCommand.h">
 			<Option target="oopL5"/>
 		</Unit>
 		<Unit filename="C:/Users/castl/CLionProjects/oopL5/main.cpp">

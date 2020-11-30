@@ -5,44 +5,33 @@
 #include "CreditBankAccount.h"
 #include <iostream>
 
-CreditBankAccount::CreditBankAccount(double _limit, double _percent, Client *client1) : BankAccount(client1) {
-    this->limit = _limit;
+CreditBankAccount::CreditBankAccount(double _limit, double _percent,
+                                     date _date,
+                                     Client *client1) : BankAccount(client1) {
+    this->creditLimit = _limit;
     this->percent = _percent;
+    this->lastPercentTime = _date;
 }
 
-void CreditBankAccount::cashAccount(double _amount) {
-    if (_amount <= 0)
-        throw std::invalid_argument("Can not cash amount negative number");
-
-    if (!this->isOutOfLimit())
-        this->amount = this->amount - _amount;
-    else
+void CreditBankAccount::addAmount(double _amount) {
+    if (std::abs(this->amount + _amount) > this->creditLimit)
         throw std::invalid_argument("Out of credit limit");
-}
 
-bool CreditBankAccount::isOutOfLimit() {
-    if (std::abs(this->amount) <= this->limit)
-        return false;
-    else return true;
-}
-
-void CreditBankAccount::refillAccount(double _amount) {
-    if (_amount <= 0)
-        throw std::invalid_argument("Can not refill amount negative number");
+    if (_amount < 0)
+        throw std::invalid_argument("Can not add amount negative number");
 
     this->amount = this->amount + _amount;
 }
 
-void CreditBankAccount::transferAccount(double _amount, BankAccount *bankAccount) {
-    this->cashAccount(_amount);
-    bankAccount->refillAccount(_amount);
-}
+void CreditBankAccount::getAmount(double _amount, date _date) {
+    if (std::abs(this->amount - _amount) > this->creditLimit)
+        throw std::invalid_argument("Out of credit limit");
 
-void CreditBankAccount::interestPayment() {
-    //запускается каждый день - результат берется каждый месяц
-    // => обнуление this->commission, обновление this->amount
-    if (isOutOfLimit()) {
-        double currentPercent = this->percent / 365.0;
-        this->commission = this->commission + currentPercent * this->amount;
-    }
+    if (_amount < 0)
+        throw std::invalid_argument("Can not get amount negative number");
+
+    if ((!this->getClient()->isVerified) && (_amount > this->getVerificationLimit()))
+        throw std::invalid_argument("Operation rejected : unverified person");
+
+    this->amount = this->amount - _amount;
 }

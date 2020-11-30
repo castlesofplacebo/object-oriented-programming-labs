@@ -193,6 +193,58 @@ CMakeFiles/oopL5.dir/ClientBuilder.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/ClientBuilder.cpp.s"
 	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\ClientBuilder.cpp -o CMakeFiles\oopL5.dir\ClientBuilder.cpp.s
 
+CMakeFiles/oopL5.dir/AbstractCommand.cpp.obj: CMakeFiles/oopL5.dir/flags.make
+CMakeFiles/oopL5.dir/AbstractCommand.cpp.obj: ../AbstractCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/oopL5.dir/AbstractCommand.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\AbstractCommand.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\AbstractCommand.cpp
+
+CMakeFiles/oopL5.dir/AbstractCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL5.dir/AbstractCommand.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL5\AbstractCommand.cpp > CMakeFiles\oopL5.dir\AbstractCommand.cpp.i
+
+CMakeFiles/oopL5.dir/AbstractCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/AbstractCommand.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\AbstractCommand.cpp -o CMakeFiles\oopL5.dir\AbstractCommand.cpp.s
+
+CMakeFiles/oopL5.dir/CashCommand.cpp.obj: CMakeFiles/oopL5.dir/flags.make
+CMakeFiles/oopL5.dir/CashCommand.cpp.obj: ../CashCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/oopL5.dir/CashCommand.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\CashCommand.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\CashCommand.cpp
+
+CMakeFiles/oopL5.dir/CashCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL5.dir/CashCommand.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL5\CashCommand.cpp > CMakeFiles\oopL5.dir\CashCommand.cpp.i
+
+CMakeFiles/oopL5.dir/CashCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/CashCommand.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\CashCommand.cpp -o CMakeFiles\oopL5.dir\CashCommand.cpp.s
+
+CMakeFiles/oopL5.dir/RefillCommand.cpp.obj: CMakeFiles/oopL5.dir/flags.make
+CMakeFiles/oopL5.dir/RefillCommand.cpp.obj: ../RefillCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/oopL5.dir/RefillCommand.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\RefillCommand.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\RefillCommand.cpp
+
+CMakeFiles/oopL5.dir/RefillCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL5.dir/RefillCommand.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL5\RefillCommand.cpp > CMakeFiles\oopL5.dir\RefillCommand.cpp.i
+
+CMakeFiles/oopL5.dir/RefillCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/RefillCommand.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\RefillCommand.cpp -o CMakeFiles\oopL5.dir\RefillCommand.cpp.s
+
+CMakeFiles/oopL5.dir/TransferCommand.cpp.obj: CMakeFiles/oopL5.dir/flags.make
+CMakeFiles/oopL5.dir/TransferCommand.cpp.obj: ../TransferCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object CMakeFiles/oopL5.dir/TransferCommand.cpp.obj"
+	C:\MinGW\bin\g++.exe  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles\oopL5.dir\TransferCommand.cpp.obj -c C:\Users\castl\CLionProjects\oopL5\TransferCommand.cpp
+
+CMakeFiles/oopL5.dir/TransferCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/oopL5.dir/TransferCommand.cpp.i"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\castl\CLionProjects\oopL5\TransferCommand.cpp > CMakeFiles\oopL5.dir\TransferCommand.cpp.i
+
+CMakeFiles/oopL5.dir/TransferCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/oopL5.dir/TransferCommand.cpp.s"
+	C:\MinGW\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\castl\CLionProjects\oopL5\TransferCommand.cpp -o CMakeFiles\oopL5.dir\TransferCommand.cpp.s
+
 # Object files for target oopL5
 oopL5_OBJECTS = \
 "CMakeFiles/oopL5.dir/main.cpp.obj" \
@@ -203,7 +255,11 @@ oopL5_OBJECTS = \
 "CMakeFiles/oopL5.dir/CreditBankAccount.cpp.obj" \
 "CMakeFiles/oopL5.dir/DepositBankAccount.cpp.obj" \
 "CMakeFiles/oopL5.dir/Builder.cpp.obj" \
-"CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj"
+"CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj" \
+"CMakeFiles/oopL5.dir/AbstractCommand.cpp.obj" \
+"CMakeFiles/oopL5.dir/CashCommand.cpp.obj" \
+"CMakeFiles/oopL5.dir/RefillCommand.cpp.obj" \
+"CMakeFiles/oopL5.dir/TransferCommand.cpp.obj"
 
 # External object files for target oopL5
 oopL5_EXTERNAL_OBJECTS =
@@ -217,11 +273,15 @@ oopL5.exe: CMakeFiles/oopL5.dir/CreditBankAccount.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/DepositBankAccount.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/Builder.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/ClientBuilder.cpp.obj
+oopL5.exe: CMakeFiles/oopL5.dir/AbstractCommand.cpp.obj
+oopL5.exe: CMakeFiles/oopL5.dir/CashCommand.cpp.obj
+oopL5.exe: CMakeFiles/oopL5.dir/RefillCommand.cpp.obj
+oopL5.exe: CMakeFiles/oopL5.dir/TransferCommand.cpp.obj
 oopL5.exe: CMakeFiles/oopL5.dir/build.make
 oopL5.exe: CMakeFiles/oopL5.dir/linklibs.rsp
 oopL5.exe: CMakeFiles/oopL5.dir/objects1.rsp
 oopL5.exe: CMakeFiles/oopL5.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable oopL5.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\castl\CLionProjects\oopL5\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX executable oopL5.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\oopL5.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

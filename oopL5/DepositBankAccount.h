@@ -11,22 +11,17 @@
 class DepositBankAccount : public BankAccount {
 private:
     int daysToEnd = 0;
-    double openSum = 0;
-    double percent = 0;
-    double sumToPay = 0;
+    date creationDate{};
 public:
     DepositBankAccount(int _daysToEnd, double _openSum,
-                       const std::vector<std::pair<double, double>> &_percentAndAmount, Client *client1);
+                       const std::vector<std::pair<double, double>> &_percentAndAmount,
+                       date _date, Client *client1);
 
-    [[nodiscard]] bool isEndOfDeposit() const;
+    void addAmount(double _amount) override;
 
-    void cashAccount(double _amount) override;
+    void getAmount(double _amount, date _date) override;
 
-    void refillAccount(double _amount) override;
-
-    void transferAccount(double _amount, BankAccount *bankAccount) override;
-
-    void interestPayment() override;
+    bool isEnd(date _date);
 
 };
 

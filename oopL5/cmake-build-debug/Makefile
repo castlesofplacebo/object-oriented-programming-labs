@@ -142,6 +142,33 @@ oopL5/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/build
 .PHONY : oopL5/fast
 
+AbstractCommand.obj: AbstractCommand.cpp.obj
+
+.PHONY : AbstractCommand.obj
+
+# target to build an object file
+AbstractCommand.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/AbstractCommand.cpp.obj
+.PHONY : AbstractCommand.cpp.obj
+
+AbstractCommand.i: AbstractCommand.cpp.i
+
+.PHONY : AbstractCommand.i
+
+# target to preprocess a source file
+AbstractCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/AbstractCommand.cpp.i
+.PHONY : AbstractCommand.cpp.i
+
+AbstractCommand.s: AbstractCommand.cpp.s
+
+.PHONY : AbstractCommand.s
+
+# target to generate assembly for a file
+AbstractCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/AbstractCommand.cpp.s
+.PHONY : AbstractCommand.cpp.s
+
 Bank.obj: Bank.cpp.obj
 
 .PHONY : Bank.obj
@@ -222,6 +249,33 @@ Builder.s: Builder.cpp.s
 Builder.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/Builder.cpp.s
 .PHONY : Builder.cpp.s
+
+CashCommand.obj: CashCommand.cpp.obj
+
+.PHONY : CashCommand.obj
+
+# target to build an object file
+CashCommand.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/CashCommand.cpp.obj
+.PHONY : CashCommand.cpp.obj
+
+CashCommand.i: CashCommand.cpp.i
+
+.PHONY : CashCommand.i
+
+# target to preprocess a source file
+CashCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/CashCommand.cpp.i
+.PHONY : CashCommand.cpp.i
+
+CashCommand.s: CashCommand.cpp.s
+
+.PHONY : CashCommand.s
+
+# target to generate assembly for a file
+CashCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/CashCommand.cpp.s
+.PHONY : CashCommand.cpp.s
 
 Client.obj: Client.cpp.obj
 
@@ -358,6 +412,60 @@ DepositBankAccount.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/DepositBankAccount.cpp.s
 .PHONY : DepositBankAccount.cpp.s
 
+RefillCommand.obj: RefillCommand.cpp.obj
+
+.PHONY : RefillCommand.obj
+
+# target to build an object file
+RefillCommand.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/RefillCommand.cpp.obj
+.PHONY : RefillCommand.cpp.obj
+
+RefillCommand.i: RefillCommand.cpp.i
+
+.PHONY : RefillCommand.i
+
+# target to preprocess a source file
+RefillCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/RefillCommand.cpp.i
+.PHONY : RefillCommand.cpp.i
+
+RefillCommand.s: RefillCommand.cpp.s
+
+.PHONY : RefillCommand.s
+
+# target to generate assembly for a file
+RefillCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/RefillCommand.cpp.s
+.PHONY : RefillCommand.cpp.s
+
+TransferCommand.obj: TransferCommand.cpp.obj
+
+.PHONY : TransferCommand.obj
+
+# target to build an object file
+TransferCommand.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/TransferCommand.cpp.obj
+.PHONY : TransferCommand.cpp.obj
+
+TransferCommand.i: TransferCommand.cpp.i
+
+.PHONY : TransferCommand.i
+
+# target to preprocess a source file
+TransferCommand.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/TransferCommand.cpp.i
+.PHONY : TransferCommand.cpp.i
+
+TransferCommand.s: TransferCommand.cpp.s
+
+.PHONY : TransferCommand.s
+
+# target to generate assembly for a file
+TransferCommand.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\oopL5.dir\build.make CMakeFiles/oopL5.dir/TransferCommand.cpp.s
+.PHONY : TransferCommand.cpp.s
+
 main.obj: main.cpp.obj
 
 .PHONY : main.obj
@@ -394,6 +502,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... oopL5
+	@echo ... AbstractCommand.obj
+	@echo ... AbstractCommand.i
+	@echo ... AbstractCommand.s
 	@echo ... Bank.obj
 	@echo ... Bank.i
 	@echo ... Bank.s
@@ -403,6 +514,9 @@ help:
 	@echo ... Builder.obj
 	@echo ... Builder.i
 	@echo ... Builder.s
+	@echo ... CashCommand.obj
+	@echo ... CashCommand.i
+	@echo ... CashCommand.s
 	@echo ... Client.obj
 	@echo ... Client.i
 	@echo ... Client.s
@@ -418,6 +532,12 @@ help:
 	@echo ... DepositBankAccount.obj
 	@echo ... DepositBankAccount.i
 	@echo ... DepositBankAccount.s
+	@echo ... RefillCommand.obj
+	@echo ... RefillCommand.i
+	@echo ... RefillCommand.s
+	@echo ... TransferCommand.obj
+	@echo ... TransferCommand.i
+	@echo ... TransferCommand.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

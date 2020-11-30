@@ -4,24 +4,18 @@
 
 #ifndef OOPL5_CREDITBANKACCOUNT_H
 #define OOPL5_CREDITBANKACCOUNT_H
+
 #include "BankAccount.h"
 
 class CreditBankAccount : public BankAccount {
 private:
-    double limit = 0;
-    double percent = 0;
-    double commission = 0;
+    double creditLimit = 0;
 public:
-    explicit CreditBankAccount(double _limit, double _percent, Client *client1);
+    explicit CreditBankAccount(double _limit, double _percent, date _date, Client *client1);
 
-    void cashAccount(double _amount) override;
+    void addAmount(double _amount) override;
 
-    bool isOutOfLimit();
-
-    void refillAccount(double _amount) override;
-
-    void transferAccount(double _amount, BankAccount *bankAccount) override;
-
-    void interestPayment() override;
+    void getAmount(double _amount, date _date) override;
 };
+
 #endif //OOPL5_CREDITBANKACCOUNT_H
