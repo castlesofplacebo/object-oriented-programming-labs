@@ -11,9 +11,13 @@ oopL3/cmake-build-debug/
 oopL3/CMakeLists.txt
 
 oopL4.1/.idea/
-oopL4.1/cmake-build-debug
+oopL4.1/cmake-build-debug/
 oopL4.1/CMakeLists.txt
 
 oopL5/.idea/
-oopL5/cmake-build-debug
+oopL5/cmake-build-debug/
 oopL5/CMakeLists.txt
+
+oopL6/.idea/
+oopL6/cmake-build-debug/
+oopL6/CMakeLists.txt
