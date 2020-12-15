@@ -9,6 +9,8 @@
 #include "ViewModels/StaffVM.h"
 #include "ViewModels/ReportVM.h"
 #include "ViewModels/TaskVM.h"
+#include "ViewModels/LeaderVM.h"
+#include "ViewModels/WorkerVM.h"
 #include "vector"
 #include <iostream>
 
@@ -16,35 +18,29 @@ class Controller {
 private:
     Service *service;
 public:
-    //ok
     Controller(Service *service1);
 
-    //ok
     unsigned int addTask(TaskVM *taskVm, date _date);
 
-    //ok
     TaskVM findTask(unsigned int _id);
 
-    //ok
     void setStaffToTask(TaskVM *taskVm, unsigned int staffId, date _date);
 
-    //ok
     void changeTaskStatus(TaskVM *taskVm, States state, date _date);
 
-    //ok
     void addCommentToTask(TaskVM *taskVm, const std::string &comment, date _date);
 
-    //ok
     std::string getCommentsFromTask(TaskVM *taskVm);
 
-    //ok
     std::string seeChangesInTaskByDate(TaskVM *taskVm, date _date);
-
-    unsigned int addStaff(StaffVM *staff);
+    //ok
+    unsigned int addTeamleader(LeaderVM *teamLead);
+    //ok
+    unsigned int addWorker(StaffVM *workerVm);
 
     void setHeadToStaff(StaffVM *head, StaffVM *employee);
 
-    std::string getHierarchy();
+    std::string getHierarchy(StaffVM *staff);
 
     std::vector<TaskVM> getTasksByDate(date _date);
 

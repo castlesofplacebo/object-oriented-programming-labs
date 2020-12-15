@@ -13,7 +13,7 @@ class Staff : public IEntity {
 protected:
     unsigned int id = 0;
     std::string name{};
-    unsigned int headId = -1;
+    unsigned int headId = 0;
 public:
     explicit Staff(std::string _name);
 
@@ -21,12 +21,15 @@ public:
 
     void setId(unsigned int _id) override;
 
-    void setHead(unsigned int _id);
-
     unsigned int getHead() const;
 
     unsigned int getId() override;
 
+    void setHead(unsigned int _id);
+
+    virtual void addEmployees(Staff *staff);
+
+    virtual std::string getHierarchy() = 0;
 };
 
 #endif //OOPL6_STAFF_H

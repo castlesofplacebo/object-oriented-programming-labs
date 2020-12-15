@@ -12,7 +12,7 @@ Task::Task(std::string _name, std::string _description) {
     this->state = Open;
 }
 
-std::string convertFromStates (States _state) {
+std::string convertFromStates(States _state) {
     std::string result{};
     if (_state == Open)
         result = "Open";

@@ -29,3 +29,5 @@ void Staff::setHead(unsigned int _id) {
 unsigned int Staff::getHead() const {
     return this->headId;
 }
+
+void Staff::addEmployees(Staff *staff) {}

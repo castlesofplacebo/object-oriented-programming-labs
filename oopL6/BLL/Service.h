@@ -9,6 +9,8 @@
 #include "../DAL/ReportRepository.h"
 #include "../DAL/TaskRepository.h"
 #include "../BLL/DTO/TaskDTO.h"
+#include "DTO/LeaderDTO.h"
+#include "DTO/WorkerDTO.h"
 
 class Service {
 private:
@@ -34,17 +36,19 @@ public:
 
     std::string seeChangesInTaskByDate(unsigned int taskId, date _date);
 
-    void addStaff(StaffDTO *staff);
+    void addTeamleader(LeaderDTO *teamLeadDto);
+
+    void addWorker(WorkerDTO *workerDto);
 
     void setHead(unsigned int headId, unsigned int employeeId);
 
-    std::string getHierarchy();
+    std::string getHierarchy(unsigned int staffId);
 
     std::vector<TaskDTO> getTasksByDate(date _date);
 
-    std::vector<TaskDTO> getTasksByStaff(StaffDTO *staff);
+    //std::vector<TaskDTO> getTasksByStaff(StaffDTO *staff);
 
-    std::vector<TaskDTO> getEmployeesTasks(StaffDTO *staff);
+    //std::vector<TaskDTO> getEmployeesTasks(StaffDTO *staff);
 
 };
 

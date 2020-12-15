@@ -3,6 +3,7 @@
 //
 
 #include "../Service.h"
+#include "../../DAL/Entities/Leader.h"
 
 Service::Service(StaffRepository *_staffRepository, TaskRepository *_taskRepository,
                  ReportRepository *_reportRepository) {
@@ -54,28 +55,27 @@ std::string Service::seeChangesInTaskByDate(unsigned int taskId, date _date) {
 
 }
 
-void Service::addStaff(StaffDTO *staff) {
-    auto staffToDAL = new Staff(staff->getName());
-    this->staffRepository->create(staffToDAL);
-    staff->setId(staffToDAL->getId());
+void Service::addTeamleader(LeaderDTO *teamLeadDto) {
+    auto teamleaderToDAL = new Leader(teamLeadDto->getName());
+    this->staffRepository->create(teamleaderToDAL);
+    teamLeadDto->setId(teamleaderToDAL->getId());
 }
+
+
+void Service::addWorker(WorkerDTO *workerDto) {
+    auto workerToDAL = new Leader(workerDto->getName());
+    this->staffRepository->create(workerToDAL);
+    workerDto->setId(workerToDAL->getId());
+}
+
 
 void Service::setHead(unsigned int headId, unsigned int employeeId) {
-    this->staffRepository->getItem(employeeId)->setHead(headId);
+    this->staffRepository->getItem(headId)->
+    addEmployees(this->staffRepository->getItem(employeeId));
 }
 
-std::string Service::getHierarchy() {
-    std::string result{};
-
-    std::map<unsigned int, Staff *> allStaff = this->staffRepository->getAll();
-    for (auto i : allStaff) {
-        result += "Employees of " + i.second->getName() + " : ";
-        for (auto j : allStaff) {
-            if (i.second->getId() == j.second->getHead())
-                result += j.second->getName() + " ";
-        }
-        result += '\n';
-    }
+std::string Service::getHierarchy(unsigned int staffId) {
+    std::string result = this->staffRepository->getItem(staffId)->getHierarchy();
     return result;
 }
 
@@ -97,7 +97,7 @@ std::vector<TaskDTO> Service::getTasksByDate(date _date) {
     return result;
 }
 
-std::vector<TaskDTO> Service::getTasksByStaff(StaffDTO *staff) {
+/*std::vector<TaskDTO> Service::getTasksByStaff(StaffDTO *staff) {
     std::vector<TaskDTO> result {};
     std::map<unsigned int, Task *> allTasks = this->taskRepository->getAll();
 
@@ -122,4 +122,4 @@ std::vector<TaskDTO> Service::getEmployeesTasks(StaffDTO *staff) {
         }
     }
     return result;
-}
+}*/
