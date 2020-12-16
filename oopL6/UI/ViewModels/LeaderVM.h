@@ -11,6 +11,8 @@ class LeaderVM : public StaffVM {
 public:
     explicit LeaderVM(std::string _name);
 
+    ~LeaderVM();
+
 };
 
 

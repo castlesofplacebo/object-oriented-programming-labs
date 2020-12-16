@@ -6,13 +6,11 @@
 #include "ViewModels/TaskVM.h"
 #include "ViewModels/LeaderVM.h"
 #include "ViewModels/WorkerVM.h"
-#include "../DAL/StaffRepository.h"
 #include "Controller.h"
 
 int main() {
     try {
-        StaffRepository s;
-        Service current(&s,
+        Service current(new StaffRepository,
                         new TaskRepository,
                         new ReportRepository);
 
@@ -33,17 +31,23 @@ int main() {
 
         unsigned int sId1 = c.addTeamleader(&teamLead);
         unsigned int sId2 = c.addWorker(&worker);
+        unsigned int sId3 = c.addWorker(&worker1);
+        unsigned int sId4 = c.addWorker(&worker2);
+        c.setHeadToStaff(&teamLead, &worker);
+        c.setHeadToStaff(&teamLead, &worker1);
+        c.setHeadToStaff(&worker, &worker2);
 
-        //c.setHeadToStaff(&teamLead, &worker);
-        s.getItem(1)->addEmployees(s.getItem(2));
-
-        //хочу чтобы что-нибудь выводилось а оно не выводится :(
-        std::cout << s.getItem(2)->getHierarchy();
-
+        c.setStaffToTask(&task, sId4, _creationDate);
 
         c.changeTaskStatus(&task, Active, _creationDate);
-
         c.addCommentToTask(&task, "comment1", _creationDate);
+
+        c.createDailyReport(&worker2, _creationDate, "comment to daily report");
+        date _date{12, 10, 2020};
+        c.createDailyReport(&worker2, _date, "comment to daily report");
+        c.createSprintReport(&worker2, "finish sprint");
+
+        c.createSprintReport(&teamLead, "ok");
 
     }
     catch (std::exception &err) {

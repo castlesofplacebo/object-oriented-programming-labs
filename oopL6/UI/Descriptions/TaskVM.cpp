@@ -26,3 +26,5 @@ void TaskVM::setId(unsigned int _id) {
 unsigned int TaskVM::getId() const {
     return this->id;
 }
+
+TaskVM::~TaskVM() = default;

@@ -56,10 +56,6 @@ std::string Task::getDescription() {
     return this->description;
 }
 
-unsigned int Task::getStaffId() const {
-    return this->staff;
-}
-
 std::string Task::getComment() {
     return this->staffComments;
 }
@@ -73,3 +69,9 @@ Task::Task(std::string _name, std::string _description, date _date) {
 std::vector<std::pair<date, std::string>> Task::getChanges() {
     return this->changes;
 }
+
+unsigned int Task::getStaff() const {
+    return this->staff;
+}
+
+Task::~Task() = default;

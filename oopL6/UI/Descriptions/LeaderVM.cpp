@@ -6,3 +6,5 @@
 
 LeaderVM::LeaderVM(std::string _name) : StaffVM(std::move(_name)) {
 }
+
+LeaderVM::~LeaderVM() = default;

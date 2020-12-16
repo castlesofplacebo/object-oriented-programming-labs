@@ -22,6 +22,8 @@ public:
             TaskRepository *_taskRepository,
             ReportRepository *_reportRepository);
 
+    ~Service();
+
     TaskDTO getTask(unsigned int _id);
 
     void addTask(TaskDTO *item, date _date);
@@ -46,11 +48,15 @@ public:
 
     std::vector<TaskDTO> getTasksByDate(date _date);
 
-    //std::vector<TaskDTO> getTasksByStaff(StaffDTO *staff);
+    std::vector<TaskDTO> getTasksByStaff(unsigned int staffId);
 
-    //std::vector<TaskDTO> getEmployeesTasks(StaffDTO *staff);
+    std::vector<TaskDTO> getEmployeesTasks(unsigned int leaderId);
 
+    void createDailyReport(unsigned int staffId, date _date, const std::string& comment);
+
+    void createSprintReport(WorkerDTO *workerDto, const std::string& comment);
+
+    void createSprintReport(LeaderDTO *leaderDto, const std::string& comment);
 };
-
 
 #endif //OOPL6_SERVICE_H

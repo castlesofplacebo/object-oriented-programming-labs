@@ -38,3 +38,5 @@ std::string TaskDTO::getName() {
 std::string TaskDTO::getDescription() {
     return this->description;
 }
+
+TaskDTO::~TaskDTO() = default;

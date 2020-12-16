@@ -7,3 +7,5 @@
 LeaderDTO::LeaderDTO(std::string _name) : StaffDTO(std::move(_name)) {
 
 }
+
+LeaderDTO::~LeaderDTO() = default;

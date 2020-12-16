@@ -9,15 +9,31 @@
 #include "Staff.h"
 #include <iostream>
 
+enum ReportState {
+    Started,
+    Closed
+};
+
 class Report : public IEntity {
 private:
     unsigned int id = 0;
     Staff *staff;
     std::string info{};
+    ReportState reportState;
 public:
     Report(Staff *_staff);
 
+    ~Report();
+
     void addInfo(const std::string &text);
+
+    void closeReport();
+
+    unsigned int getStaffId();
+
+    ReportState getState();
+
+    std::string getInfo();
 
     unsigned int getId() override;
 

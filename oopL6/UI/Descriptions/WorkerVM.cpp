@@ -6,3 +6,5 @@
 
 WorkerVM::WorkerVM(std::string _name) : StaffVM(std::move(_name)) {
 }
+
+WorkerVM::~WorkerVM() = default;

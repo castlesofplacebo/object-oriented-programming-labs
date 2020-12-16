@@ -12,7 +12,6 @@ class ReportRepository : public IRepository<Report> {
 private:
     std::map<unsigned int, Report *> _reports{};
 public:
-    //TODO тут пусто
     ReportRepository();
 
     void create(Report *item) override;

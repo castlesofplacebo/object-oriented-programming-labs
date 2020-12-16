@@ -9,6 +9,8 @@
 class WorkerDTO : public StaffDTO {
 public:
     explicit WorkerDTO(std::string _name);
+
+    ~WorkerDTO();
 };
 
 

@@ -21,3 +21,5 @@ void StaffVM::setId(unsigned int _id) {
 unsigned int StaffVM::getId() const {
     return this->id;
 }
+
+StaffVM::~StaffVM() = default;

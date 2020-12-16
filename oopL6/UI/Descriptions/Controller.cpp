@@ -3,6 +3,8 @@
 //
 
 #include "../Controller.h"
+
+#include <utility>
 #include "../../BLL/DTO/LeaderDTO.h"
 #include "../../BLL/DTO/WorkerDTO.h"
 
@@ -75,10 +77,8 @@ std::vector<TaskVM> Controller::getTasksByDate(date _date) {
     return result;
 }
 
-/*std::vector<TaskVM> Controller::getTasksByStaff(StaffVM *staffVm) {
-    auto item = new StaffDTO(staffVm->getName());
-    item->setId(staffVm->getId());
-    std::vector<TaskDTO> tasks = this->service->getTasksByStaff(item);
+std::vector<TaskVM> Controller::getTasksByStaff(StaffVM *staffVm) {
+    std::vector<TaskDTO> tasks = this->service->getTasksByStaff(staffVm->getId());
     std::vector<TaskVM> result {};
 
     for (auto i : tasks) {
@@ -89,10 +89,7 @@ std::vector<TaskVM> Controller::getTasksByDate(date _date) {
 }
 
 std::vector<TaskVM> Controller::getEmployeesTasks(StaffVM *staffVm) {
-    auto item = new StaffDTO(staffVm->getName());
-    item->setId(staffVm->getId());
-
-    std::vector<TaskDTO> tasks = this->service->getEmployeesTasks(item);
+    std::vector<TaskDTO> tasks = this->service->getEmployeesTasks(staffVm->getId());
     std::vector<TaskVM> result {};
 
     for (auto i : tasks) {
@@ -101,4 +98,20 @@ std::vector<TaskVM> Controller::getEmployeesTasks(StaffVM *staffVm) {
     }
 
     return result;
-}*/
+}
+
+void Controller::createDailyReport(StaffVM *staffVm, date _date, const std::string& comment) {
+    this->service->createDailyReport(staffVm->getId(), _date, comment);
+}
+
+void Controller::createSprintReport(WorkerVM *workerVm, const std::string& comment) {
+    auto workerDTO = new WorkerDTO(workerVm->getName());
+    workerDTO->setId(workerVm->getId());
+    this->service->createSprintReport(workerDTO, comment);
+}
+
+void Controller::createSprintReport(LeaderVM *leaderVm, const std::string &comment) {
+    auto leaderDTO = new LeaderDTO(leaderVm->getName());
+    leaderDTO->setId(leaderVm->getId());
+    this->service->createSprintReport(leaderDTO, comment);
+}

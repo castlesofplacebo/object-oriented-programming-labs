@@ -11,6 +11,8 @@ class WorkerVM : public StaffVM {
 public:
     explicit WorkerVM(std::string _name);
 
+    ~WorkerVM();
+
 };
 
 

@@ -14,9 +14,13 @@ private:
 public:
     explicit Leader(std::string _name);
 
+    ~Leader();
+
     void addEmployees(Staff *staff) override;
 
     std::string getHierarchy() override;
+
+    std::list<Staff *> getEmployees() override;
 };
 
 

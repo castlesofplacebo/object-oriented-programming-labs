@@ -21,3 +21,5 @@ unsigned int StaffDTO::getId() const {
 std::string StaffDTO::getName() {
     return this->name;
 }
+
+StaffDTO::~StaffDTO() = default;

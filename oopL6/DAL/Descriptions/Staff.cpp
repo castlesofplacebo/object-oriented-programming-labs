@@ -30,4 +30,4 @@ unsigned int Staff::getHead() const {
     return this->headId;
 }
 
-void Staff::addEmployees(Staff *staff) {}
+Staff::~Staff() = default;

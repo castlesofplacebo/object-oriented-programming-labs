@@ -36,6 +36,8 @@ public:
 
     Task(std::string _name, std::string _description, date _date);
 
+    ~Task();
+
     std::string getName();
 
     std::string getDescription();
@@ -50,9 +52,9 @@ public:
 
     void setStaff(unsigned int _id, date _date);
 
-    std::vector<std::pair<date, std::string>> getChanges();
+    unsigned int getStaff() const;
 
-    unsigned int getStaffId() const;
+    std::vector<std::pair<date, std::string>> getChanges();
 
     unsigned int getId() override;
 };

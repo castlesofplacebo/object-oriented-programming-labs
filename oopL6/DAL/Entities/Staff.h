@@ -17,6 +17,8 @@ protected:
 public:
     explicit Staff(std::string _name);
 
+    ~Staff();
+
     std::string getName();
 
     void setId(unsigned int _id) override;
@@ -27,7 +29,9 @@ public:
 
     void setHead(unsigned int _id);
 
-    virtual void addEmployees(Staff *staff);
+    virtual void addEmployees(Staff *staff) = 0;
+
+    virtual std::list<Staff *> getEmployees() = 0;
 
     virtual std::string getHierarchy() = 0;
 };

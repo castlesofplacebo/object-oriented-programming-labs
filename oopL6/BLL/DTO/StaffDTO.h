@@ -14,6 +14,8 @@ protected:
 public:
     explicit StaffDTO(std::string _name);
 
+    ~StaffDTO();
+
     void setId(unsigned int _id);
 
     std::string getName();

@@ -21,6 +21,8 @@ private:
 public:
     TaskDTO(std::string _name, std::string _description);
 
+    ~TaskDTO();
+
     std::string getName();
 
     std::string getDescription();

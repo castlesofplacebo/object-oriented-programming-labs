@@ -6,3 +6,5 @@
 
 WorkerDTO::WorkerDTO(std::string _name) : StaffDTO(std::move(_name)) {
 }
+
+WorkerDTO::~WorkerDTO() = default;

@@ -17,6 +17,8 @@ private:
 public:
     TaskVM(std::string _name, std::string _description);
 
+    ~TaskVM();
+
     std::string getName();
 
     std::string getDescription();

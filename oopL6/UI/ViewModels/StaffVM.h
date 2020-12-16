@@ -13,6 +13,8 @@ protected:
 public:
     explicit StaffVM(std::string _name);
 
+    ~StaffVM();
+
     std::string getName();
 
     void setId(unsigned int _id);

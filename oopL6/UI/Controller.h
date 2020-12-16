@@ -7,7 +7,6 @@
 
 #include "../BLL/Service.h"
 #include "ViewModels/StaffVM.h"
-#include "ViewModels/ReportVM.h"
 #include "ViewModels/TaskVM.h"
 #include "ViewModels/LeaderVM.h"
 #include "ViewModels/WorkerVM.h"
@@ -47,6 +46,12 @@ public:
     std::vector<TaskVM> getTasksByStaff(StaffVM *staffVm);
 
     std::vector<TaskVM> getEmployeesTasks(StaffVM *staffVm);
+
+    void createDailyReport(StaffVM *staffVm, date _date, const std::string& comment);
+
+    void createSprintReport(WorkerVM *workerVm, const std::string& comment);
+
+    void createSprintReport(LeaderVM *leaderVm, const std::string &comment);
 };
 
 

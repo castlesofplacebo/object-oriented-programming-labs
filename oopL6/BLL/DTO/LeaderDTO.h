@@ -11,6 +11,8 @@ class LeaderDTO : public StaffDTO {
 public:
     explicit LeaderDTO(std::string _name);
 
+    ~LeaderDTO();
+
 };
 
 

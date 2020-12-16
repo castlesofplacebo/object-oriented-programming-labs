@@ -10,18 +10,25 @@ Leader::Leader(std::string _name) : Staff(_name) {
 
 void Leader::addEmployees(Staff *staff) {
     this->employees.push_back(staff);
-    //employee выставить начальника this
     staff->setHead(this->getId());
 }
 
 std::string Leader::getHierarchy() {
     std::string result;
+    result += "Leader : " + this->getName() + "; id = " + std::to_string(this->getId());
     for (Staff *c : employees) {
         if (c == employees.back()) {
-            result += c->getHierarchy() + '\n';
+            result += '\n' + c->getHierarchy();
         } else {
-            result += c->getHierarchy() + "+";
+            result += '\n' + c->getHierarchy();
         }
     }
     return result;
 }
+
+std::list<Staff *> Leader::getEmployees() {
+    return this->employees;
+}
+
+Leader::~Leader() = default;
+
