@@ -14,6 +14,8 @@ private:
 public:
     StaffRepository();
 
+    ~StaffRepository();
+
     void create(Staff *item) override;
 
     Staff *getItem(unsigned int _id) override;

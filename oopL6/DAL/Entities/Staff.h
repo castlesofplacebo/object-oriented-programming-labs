@@ -17,7 +17,7 @@ protected:
 public:
     explicit Staff(std::string _name);
 
-    ~Staff();
+    virtual ~Staff();
 
     std::string getName();
 

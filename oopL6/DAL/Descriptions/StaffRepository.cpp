@@ -22,3 +22,8 @@ Staff *StaffRepository::getItem(unsigned int _id) {
 std::map<unsigned int, Staff *> StaffRepository::getAll() {
     return this->_staff;
 }
+
+StaffRepository::~StaffRepository() {
+    for (auto i : this->_staff)
+        delete i.second;
+}

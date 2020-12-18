@@ -26,6 +26,11 @@ std::map<unsigned int, Task *> TaskRepository::getAll() {
     return this->_tasks;
 }
 
+TaskRepository::~TaskRepository() {
+    for (auto i : this->_tasks)
+        delete i.second;
+}
+
 //std::map<unsigned int, Task *> TaskRepository::find() {
    // return std::map<unsigned int, Task *>();
 //}

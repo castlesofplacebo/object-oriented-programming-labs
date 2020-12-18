@@ -16,6 +16,8 @@ private:
 public:
     TaskRepository();
 
+    ~TaskRepository();
+
     void create(Task *item) override;
 
     Task *getItem(unsigned int _id) override;

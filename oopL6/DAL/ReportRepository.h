@@ -14,6 +14,8 @@ private:
 public:
     ReportRepository();
 
+    ~ReportRepository();
+
     void create(Report *item) override;
 
     Report *getItem(unsigned int _id) override;

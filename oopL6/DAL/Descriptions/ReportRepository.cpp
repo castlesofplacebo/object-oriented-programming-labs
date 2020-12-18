@@ -22,3 +22,8 @@ Report *ReportRepository::getItem(unsigned int _id) {
 std::map<unsigned int, Report *> ReportRepository::getAll() {
     return this->_reports;
 }
+
+ReportRepository::~ReportRepository() {
+    for (auto i : this->_reports)
+        delete i.second;
+}
